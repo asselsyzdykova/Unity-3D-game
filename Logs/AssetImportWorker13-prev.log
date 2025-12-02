@@ -1,0 +1,1465 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.12f1 (e89d5df0e333) revision 15244637'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel" at "2025-12-02T12:32:32.1884754Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15942 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-02T12:32:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/assel/skuska
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+51994
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/assel/skuska
+C:/Users/assel/skuska
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10620]  Target information:
+
+Player connection [10620]  * "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 863693736 [EditorId] 863693736 [Version] 1048832 [Id] WindowsEditor(7,ASSEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10620]  * "[IP] 10.10.30.95 [Port] 0 [Flags] 2 [Guid] 863693736 [EditorId] 863693736 [Version] 1048832 [Id] WindowsEditor(7,ASSEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.12f1 (e89d5df0e333)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/assel/skuska/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     7971 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-assel"
+[Licensing::IpcConnector] LicenseClient-assel channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel-6000.2.12" at "2025-12-02T12:32:34.1539448Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              ee27cf5039024b1e98a4d9b700c94792
+  Correlation Id:          7ea788e771f1b0e8de18aab6f5011f5f
+  External correlation Id: 7839939467505271018
+  Machine Id:              06lnmavVSsKsGiaawoDn6YYoI+U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-assel-6000.2.12" (connect: 0.00s, validation: 0.00s, handshake: 2.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel-6000.2.12-notifications" at "2025-12-02T12:32:36.358344Z"
+[Licensing::Module] Licensing Background thread has ended after 4.17s
+[Licensing::Module] Licensing is initialized (took 3.38s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972514418693-assel_syzdykova-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2026-11-16T12:54:31Z
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 3.391741 seconds.
+- Loaded All Assemblies, in  3.927 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 754 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.526 seconds
+Domain Reload Profiling: 5450ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (3453ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (988ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.114 seconds
+Refreshing native plugins compatible for Editor in 18.36 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.247 seconds
+Domain Reload Profiling: 2355ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (536ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (235ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (814ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6126 unused Assets / (4.8 MB). Loaded Objects now: 6845.
+Memory consumption went from 138.4 MB to 133.6 MB.
+Total: 11.918700 ms (FindLiveObjects: 2.024800 ms CreateObjectMapping: 0.477400 ms MarkObjects: 5.782800 ms  DeleteObjects: 3.631000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74164.537518 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx
+  artifactKey: Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx using Guid(4735160b42a3154428094dff59ef0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d04d03d367794d398b18891dae4227') in 0.8662875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.892338 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat
+  artifactKey: Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat using Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a3f55b9b3b2fe2ee8a602a385cc7c97') in 0.4674539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/bark01_bottom.tga
+  artifactKey: Guid(4e44992d8a199a546aeaaa6ebc63b91a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/bark01_bottom.tga using Guid(4e44992d8a199a546aeaaa6ebc63b91a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '60516f0448493c9cdff8f5c7f30395dd') in 0.1343635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat
+  artifactKey: Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat using Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50bfcaa577c75d7c83831214e72a88ba') in 0.011692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes
+  artifactKey: Guid(62872d07d188c1c40b0a8f51ce5f5d60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes using Guid(62872d07d188c1c40b0a8f51ce5f5d60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13ad51efdafb69aad5036d449ab61c68') in 0.0051486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures
+  artifactKey: Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures using Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e81b58104701c1ccdffc81fc16291e42') in 0.0092334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat
+  artifactKey: Guid(16a185093c7e02d40a49265c23c74417) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat using Guid(16a185093c7e02d40a49265c23c74417) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b33913864b946945779456eddc856474') in 0.0138898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes
+  artifactKey: Guid(eaaaee0f57e935647bce706f4ad8f73b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes using Guid(eaaaee0f57e935647bce706f4ad8f73b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b5ce039f4019801491ff17dc2ccc7dd') in 0.0057595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/grass01.mat
+  artifactKey: Guid(40e69315dc8bd0b45be8bf7143248fba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/grass01.mat using Guid(40e69315dc8bd0b45be8bf7143248fba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0092355775b82ed0d88a4c0120f9190a') in 0.0851355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX
+  artifactKey: Guid(4de33cfabd2a0a64caa7f20596f00adf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source/grass01.FBX using Guid(4de33cfabd2a0a64caa7f20596f00adf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '124a43202234dd1d79db28d092fee3dc') in 0.0924118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat
+  artifactKey: Guid(02f626fd2f11216458890862c5864d34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat using Guid(02f626fd2f11216458890862c5864d34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0b2be9eab4fa261b855572a1f3d8b3') in 0.0099607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity
+  artifactKey: Guid(7769f33fb4fa2e5458344a36556ad760) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity using Guid(7769f33fb4fa2e5458344a36556ad760) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a84627de5bf1224f873f0d484066c62') in 0.006836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/StandardNoCulling.shader
+  artifactKey: Guid(717bc8f73d5aea64caef02a0c07b1e3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/StandardNoCulling.shader using Guid(717bc8f73d5aea64caef02a0c07b1e3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01d2fdfb9a6c6957357b4f6275391bfb') in 0.0148567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga
+  artifactKey: Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga using Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70426cc91807fb2e264717812d80d308') in 0.0183447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs
+  artifactKey: Guid(9c7916be32b4831459e123e056137170) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs using Guid(9c7916be32b4831459e123e056137170) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c09737b62d0ee37aca3efd1197e39fd') in 0.0062331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/grass01.prefab
+  artifactKey: Guid(b48086d9f175aa34b947a21c8056c3d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/grass01.prefab using Guid(b48086d9f175aa34b947a21c8056c3d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '344780906c68c725e883a24791ccb146') in 0.023973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '975d5485757556f24170c431acd1f561') in 0.0145563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx
+  artifactKey: Guid(4735160b42a3154428094dff59ef0f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source/tree_1.fbx using Guid(4735160b42a3154428094dff59ef0f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '906902addb7394e1d07ca3e0f113323d') in 0.0562326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png
+  artifactKey: Guid(4e364662e65fd2d4a995a4efe45af277) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png using Guid(4e364662e65fd2d4a995a4efe45af277) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ea9ed692e2e3733ea4b9b31713c23e1') in 0.0128813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/tree_branches.png
+  artifactKey: Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/tree_branches.png using Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '597662da514ab4c022f1b11ea86b1b97') in 0.0158634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/assets/ReflectionProbe-0.exr
+  artifactKey: Guid(dcd9fb68ebe7fa944bc06fec0783d7ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/assets/ReflectionProbe-0.exr using Guid(dcd9fb68ebe7fa944bc06fec0783d7ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04c55e48def84923d71f134de8dda02f') in 0.0159954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab
+  artifactKey: Guid(eded051879df4c147b9010199d240258) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab using Guid(eded051879df4c147b9010199d240258) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa20681c5d278a186f03a71b712ea16') in 0.0206274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/assets
+  artifactKey: Guid(43509d785f9722c46ad85122abdaea4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/assets using Guid(43509d785f9722c46ad85122abdaea4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ec53e894ed0f191a87adfbdf4bf8943') in 0.0049424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga
+  artifactKey: Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga using Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b406cb8996a84d5d5d88caf18addf56b') in 0.0198609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga
+  artifactKey: Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga using Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c041e8eb29374ed3e79585ee0463e4b1') in 0.0198724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.426569 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(c43c894431f85404aa0feaa161cb0f96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_TerrainAutoUpgrade using Guid(c43c894431f85404aa0feaa161cb0f96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4eb6aac78388bed00b83e063b0ea3164') in 0.013829 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.974744 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_plantain.fbx
+  artifactKey: Guid(6ca86f9c60b755749b9b1fc0caed3e84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_plantain.fbx using Guid(6ca86f9c60b755749b9b1fc0caed3e84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa6216a29ad76e7062da446ed7757e90') in 0.0161077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_forget-me-not.prefab
+  artifactKey: Guid(0727808b6ec787a4488d8e3ee98bd803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_forget-me-not.prefab using Guid(0727808b6ec787a4488d8e3ee98bd803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e0bd458eef7a385fcb787a0c309e1c') in 0.0330726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_grass_1.png
+  artifactKey: Guid(f14654a6197fe8c47bb27b603a0fe2c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_grass_1.png using Guid(f14654a6197fe8c47bb27b603a0fe2c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd721f34d2c542b059114e9ba67d9479c') in 0.0282855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/coniferous_forest
+  artifactKey: Guid(6d66d6e0a74b39f459b70e05e59be134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest using Guid(6d66d6e0a74b39f459b70e05e59be134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f90a06c43cd0029fd6dadb5f5734bc3d') in 0.0062766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_field_bell.mat
+  artifactKey: Guid(fa15b34653b857943bf782daf858f561) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_field_bell.mat using Guid(fa15b34653b857943bf782daf858f561) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43dfeccfe4e38b44ff9218828a747d8c') in 0.0164337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_swamp_hummock.prefab
+  artifactKey: Guid(2589c950ad2c82443aead1a0b9c28c69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_swamp_hummock.prefab using Guid(2589c950ad2c82443aead1a0b9c28c69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c2edabc71623710b9fe67ab43d63562') in 0.0156605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_water_lily_2.fbx
+  artifactKey: Guid(38de7e3ac183b3942aa7aeba32974cf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_water_lily_2.fbx using Guid(38de7e3ac183b3942aa7aeba32974cf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '148b4aedda433279424868b7c8f19c49') in 0.0211191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/coniferous_forest/Materials/T_forest.mat
+  artifactKey: Guid(548b2492dd481714bbeb9d1c11e06845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Materials/T_forest.mat using Guid(548b2492dd481714bbeb9d1c11e06845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ab7cddd5dac9fdadcc6f5acdac85736') in 0.0123226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_poppy.png
+  artifactKey: Guid(09f15e7c6e2a9764d8237daf0d19ad81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_poppy.png using Guid(09f15e7c6e2a9764d8237daf0d19ad81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58330369cdf0304334a65f0585bab064') in 0.0156381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass_1.fbx
+  artifactKey: Guid(cb3253ff87f2346438e0b2f366e7954a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_grass_1.fbx using Guid(cb3253ff87f2346438e0b2f366e7954a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00166029cde9eec6785001d95d573510') in 0.0505982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab
+  artifactKey: Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab using Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff3c5d1084cef18c8aa09ccb319cfb82') in 0.0174522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab
+  artifactKey: Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab using Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ba5e2d1e0c5ee5d36b8a9fb05f6b82a') in 0.0132205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees
+  artifactKey: Guid(ce6bd5753fdd67147ad2f8cf36d31f12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/trees using Guid(ce6bd5753fdd67147ad2f8cf36d31f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84bb9f1c97d7477cbb05ba3c735b3d9c') in 0.0064671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_dandelion.mat
+  artifactKey: Guid(372ca287569a11b419ffae01fccbb1ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_dandelion.mat using Guid(372ca287569a11b419ffae01fccbb1ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e377f605a9f55278b515a73dd7cdf7b8') in 0.0110817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab
+  artifactKey: Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab using Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '638116000768d530aab569e2f87d12f2') in 0.0179793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/coniferous_forest/textures/leaves/T_black_soil.png
+  artifactKey: Guid(d4d53dcf7f6e0e74494d57d53817c92a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/leaves/T_black_soil.png using Guid(d4d53dcf7f6e0e74494d57d53817c92a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0523241dfebf40830a754ddcabca726b') in 0.0145756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_sage.fbx
+  artifactKey: Guid(407a12a67b99936498a11d734641432a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_sage.fbx using Guid(407a12a67b99936498a11d734641432a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6239a4afbd57efc2fd3c7ef714753dee') in 0.0210769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_lily.mat
+  artifactKey: Guid(6580b347a5b34394483277986294312a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_lily.mat using Guid(6580b347a5b34394483277986294312a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e608136bddeef822bc087256b115689') in 0.0100848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_onion.fbx
+  artifactKey: Guid(a81bea35a98af974596b40d1c0dd9475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_onion.fbx using Guid(a81bea35a98af974596b40d1c0dd9475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60649a358e8e2a8eec6540ddde1c1830') in 0.0178962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_flower_1.mat
+  artifactKey: Guid(5ae68eea88d8b5d48a30fe4c610f31ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_flower_1.mat using Guid(5ae68eea88d8b5d48a30fe4c610f31ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ad5b2da99971a77494916bd8f986540') in 0.0114515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_sage.prefab
+  artifactKey: Guid(444d5cb4dd3afbf46b04b992451fc695) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_sage.prefab using Guid(444d5cb4dd3afbf46b04b992451fc695) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c8b841c1277e944e7a851114aa72e6b') in 0.0083998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_forget-me-not.fbx
+  artifactKey: Guid(0276d9a78ab538743ad74583a8580e3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_forget-me-not.fbx using Guid(0276d9a78ab538743ad74583a8580e3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17666a79802cedfb8dc42b89891e4df4') in 0.0196469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_pine.fbx
+  artifactKey: Guid(168d732344b827c46baaa31a43f5b67f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/trees/SM_pine.fbx using Guid(168d732344b827c46baaa31a43f5b67f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd982097fc90f5dece18f1513f8b6c211') in 0.014489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/coniferous_forest/textures/leaves/poly_leaves_2.png
+  artifactKey: Guid(d20ceea61a238214b8af08febf1c73b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/leaves/poly_leaves_2.png using Guid(d20ceea61a238214b8af08febf1c73b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11eb1f151b0ee911b45d57e6f0b28c15') in 0.0180495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass_2.fbx
+  artifactKey: Guid(1a98ca59221a3af48af70a3c64b499b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_grass_2.fbx using Guid(1a98ca59221a3af48af70a3c64b499b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aeee62cccf8573a775e5817f0971978') in 0.0138207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/coniferous_forest/textures/plants
+  artifactKey: Guid(7891a50ffae2fb84f892316fb37f16ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants using Guid(7891a50ffae2fb84f892316fb37f16ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3236169da8ee2a31787fb8f9419010a8') in 0.0107529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_tamarind.mat
+  artifactKey: Guid(8741ce641faa7ee4f9130f9e21128c30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_tamarind.mat using Guid(8741ce641faa7ee4f9130f9e21128c30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f41453b3939f4773c732c9878309fac8') in 0.0108623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_flower_02.png
+  artifactKey: Guid(0c7b3f2c96708144a9e7c6629d822115) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_flower_02.png using Guid(0c7b3f2c96708144a9e7c6629d822115) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd348990615ce15c3ea77aba0416acd30') in 0.0246789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/coniferous_forest/Prefabs
+  artifactKey: Guid(d431754be510b0e4aaf1f3843da1c6bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs using Guid(d431754be510b0e4aaf1f3843da1c6bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3cdd9a3ac8be63aa63717b5892c8c6e') in 0.0090215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_grass.mat
+  artifactKey: Guid(2abb182f925ac504d81b0fecaf9f4262) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_grass.mat using Guid(2abb182f925ac504d81b0fecaf9f4262) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8da9c60a49da0e01d9f57e5b9d873308') in 0.0105255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_plantain.png
+  artifactKey: Guid(728f4040cc71fb64cb41beec81df9cee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_plantain.png using Guid(728f4040cc71fb64cb41beec81df9cee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '043606b3909d448c908f44f0a871093c') in 0.0177169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_reed.png
+  artifactKey: Guid(69f8bd1ae8cb12145ad00f83b226b52a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_reed.png using Guid(69f8bd1ae8cb12145ad00f83b226b52a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ec3e13c2dc64e16e30b2a9759ebd972') in 0.0200041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/coniferous_forest/Materials/floor.mat
+  artifactKey: Guid(04d9c12e98ecf5f409b0bf9d89cd9c61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Materials/floor.mat using Guid(04d9c12e98ecf5f409b0bf9d89cd9c61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2aa2b1694f77a78bfeb32a662bd70f6') in 0.0141933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_snowdrop.png
+  artifactKey: Guid(34fc76bf00217a04c977f410dbfb5282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_snowdrop.png using Guid(34fc76bf00217a04c977f410dbfb5282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1035ba10c12bb6efba641b3d37a95e9a') in 0.0177589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/coniferous_forest/textures/plants/T_0000.gvdesign
+  artifactKey: Guid(01d733824e8be89448ebc0a2df341041) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/T_0000.gvdesign using Guid(01d733824e8be89448ebc0a2df341041) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '945dc6dc26fc86c88b57ac632e1d843e') in 0.0071952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_cane.mat
+  artifactKey: Guid(d460b6dcedab67a42981ec9422dac6e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_cane.mat using Guid(d460b6dcedab67a42981ec9422dac6e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaa3847005ee31c2fd48bac181a8d29f') in 0.0286761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_tamarind.png
+  artifactKey: Guid(72eb8a646b49ab044acde08195b9a23f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_tamarind.png using Guid(72eb8a646b49ab044acde08195b9a23f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cc26e8c9709906e18a95fcd07107ae4') in 0.0213474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/coniferous_forest/DemoScene/000Settings.lighting
+  artifactKey: Guid(0f1200294d5561a4d8636d98a7064a55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/DemoScene/000Settings.lighting using Guid(0f1200294d5561a4d8636d98a7064a55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'dec7007d3e92a9d7a9228d4fd7667a99') in 0.0287407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_large_spruce.prefab
+  artifactKey: Guid(231e02f67db138f4db3f48da52e0c225) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_large_spruce.prefab using Guid(231e02f67db138f4db3f48da52e0c225) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd075a0eed729dbc43138fa9903a75be8') in 0.0175699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_bush_1.prefab
+  artifactKey: Guid(8b15813bc6bdade41a4e1f89c5c32b61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_bush_1.prefab using Guid(8b15813bc6bdade41a4e1f89c5c32b61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e43eaf8e97a2855684b68871f762c50') in 0.0155515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/coniferous_forest/DemoScene/demo_forest.unity
+  artifactKey: Guid(8f6f51dfad43eb947a6140f01bd6e23b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/DemoScene/demo_forest.unity using Guid(8f6f51dfad43eb947a6140f01bd6e23b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb969195657e0bcb14a93f3723c16eb6') in 0.0155094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab
+  artifactKey: Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab using Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db1af63478590e2be0f2cfd67bf29798') in 0.018697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_cattail.mat
+  artifactKey: Guid(ed65328d5e1b0dc488c7e6685e71e66b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_cattail.mat using Guid(ed65328d5e1b0dc488c7e6685e71e66b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '950629ed117e35910007ab476d55ea67') in 0.0163699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/coniferous_forest
+  artifactKey: Guid(6d66d6e0a74b39f459b70e05e59be134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest using Guid(6d66d6e0a74b39f459b70e05e59be134) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b54f622688c7782bbef0ac6650aa1261') in 0.0012223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_dandelion.png
+  artifactKey: Guid(7a9cb3e27512f5d4c9b5284bb18d9235) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_dandelion.png using Guid(7a9cb3e27512f5d4c9b5284bb18d9235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8164d19fbe65373cc6f7155ff43bb70e') in 0.0182329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/coniferous_forest/textures/plants/T_00.gvdesign
+  artifactKey: Guid(ba92597fb43ad16489216df8224cf452) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/T_00.gvdesign using Guid(ba92597fb43ad16489216df8224cf452) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45a18b08690a5f25aac021699384e891') in 0.0064691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_dandelion.fbx
+  artifactKey: Guid(3681234d77c72f94fb112b448a95d114) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_dandelion.fbx using Guid(3681234d77c72f94fb112b448a95d114) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1588d5d01e7b252facf47d8e2c8c28c') in 0.0180924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_wild_wheat.mat
+  artifactKey: Guid(fe8540b4115858e458ecc894e08bd11f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_wild_wheat.mat using Guid(fe8540b4115858e458ecc894e08bd11f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd82c59b7cfe2b320017a47cec2232327') in 0.0246752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/coniferous_forest/textures/plants/T_000.gvdesign
+  artifactKey: Guid(554e139d90a0ac94b8fb784873908224) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/T_000.gvdesign using Guid(554e139d90a0ac94b8fb784873908224) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d21e20cc17bbd47227833811612069b') in 0.0063169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_bush (1).prefab
+  artifactKey: Guid(0e209e36e0b9e644da42740e2112363c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_bush (1).prefab using Guid(0e209e36e0b9e644da42740e2112363c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b212472c70a1ad0bb05e935c43d969af') in 0.0139765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_poppy.mat
+  artifactKey: Guid(1d2a15432633df04cb81a40812334889) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_poppy.mat using Guid(1d2a15432633df04cb81a40812334889) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '587b179c2e4648f6ac836c069a51e6e3') in 0.0105738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_field_bell.png
+  artifactKey: Guid(2df24d6df82479144aefc50b9784a812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_field_bell.png using Guid(2df24d6df82479144aefc50b9784a812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1fd90183a8840970a805e36b92ea7d9') in 0.0173464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_chamomile.prefab
+  artifactKey: Guid(feac9ee19dd513449bc0c598548caa67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_chamomile.prefab using Guid(feac9ee19dd513449bc0c598548caa67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f808374a92050102b8c3b322dfc5d3a0') in 0.0147698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_flower.prefab
+  artifactKey: Guid(a37df82f115c9d542805ade2c4d4c16d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_flower.prefab using Guid(a37df82f115c9d542805ade2c4d4c16d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d4652421275fc6ce12c18534a17954a') in 0.0196894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_poppy.fbx
+  artifactKey: Guid(b3a489a97524e914e8f2cef140c2c827) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_poppy.fbx using Guid(b3a489a97524e914e8f2cef140c2c827) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3026481d92fbd1a46324ebd9fe3e0085') in 0.0157856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/coniferous_forest/DemoScene/0/Profile.asset
+  artifactKey: Guid(9659936b4392abe4794ee80db22ccd9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/DemoScene/0/Profile.asset using Guid(9659936b4392abe4794ee80db22ccd9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb08f30ba50a51e18cabfebd5b5fd702') in 0.0073687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass.fbx
+  artifactKey: Guid(1990c3d1979583d45827147a8f278c35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_grass.fbx using Guid(1990c3d1979583d45827147a8f278c35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1112ddb33945ae2136109f72dfcbafc0') in 0.020545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_forget-me-not.png
+  artifactKey: Guid(73a7fc77350bac84fafd2502e682e379) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_forget-me-not.png using Guid(73a7fc77350bac84fafd2502e682e379) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14ead76a409b92f35fe0529739e75e2a') in 0.018999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_2.prefab
+  artifactKey: Guid(c93c0ce6aa9a000479e08a75a2c74a36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_2.prefab using Guid(c93c0ce6aa9a000479e08a75a2c74a36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6430fb8c9f7b538c5bcaea07b89115c7') in 0.022997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_onion.mat
+  artifactKey: Guid(819f1db0edc201749bf68461e8a576f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_onion.mat using Guid(819f1db0edc201749bf68461e8a576f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa354b4fad430082ff9faef45dd4ce80') in 0.0126679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab
+  artifactKey: Guid(28efea9479c6f4648951779bd02a0388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab using Guid(28efea9479c6f4648951779bd02a0388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e4519bbcee6e47e558bb687eaa0a695') in 0.0140197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_small_spruce.prefab
+  artifactKey: Guid(a52ed6b0bfefa0145976d11f321fdbde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_small_spruce.prefab using Guid(a52ed6b0bfefa0145976d11f321fdbde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e5dfe194a2cc4f520ed4929fca1b743') in 0.0184251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_pine_2.fbx
+  artifactKey: Guid(48e0778377fa3234f8fe94d654c91b8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/trees/SM_pine_2.fbx using Guid(48e0778377fa3234f8fe94d654c91b8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e00e93de6de38de2086a1d4b6dc09fc') in 0.0243252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_field_bell.fbx
+  artifactKey: Guid(ce7857933d63bba42b15ab6b13f4e255) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_field_bell.fbx using Guid(ce7857933d63bba42b15ab6b13f4e255) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e41890628a112a37a6ce8434fb374645') in 0.0236462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_grass_1.prefab
+  artifactKey: Guid(557e3e3679ec55645864ab32134dc6ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_grass_1.prefab using Guid(557e3e3679ec55645864ab32134dc6ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2e211b34abd494de5e7b1e24d6a1cbb') in 0.0144394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/coniferous_forest/textures/leaves/land.gvdesign
+  artifactKey: Guid(72f8b0f371c53664693c38484a6b10c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/leaves/land.gvdesign using Guid(72f8b0f371c53664693c38484a6b10c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5538ccc74917675fbe6d6054dcfb4f09') in 0.0098643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/coniferous_forest/Prefabs
+  artifactKey: Guid(d431754be510b0e4aaf1f3843da1c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs using Guid(d431754be510b0e4aaf1f3843da1c6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015fcbf143351e837610cc71117a300c') in 0.0012461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/coniferous_forest/textures/plants/T_00000.gvdesign
+  artifactKey: Guid(32516975abbf9ae42a5ef9e461579f4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/T_00000.gvdesign using Guid(32516975abbf9ae42a5ef9e461579f4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc60eb6dc3514262ebf96eec3fb2212f') in 0.0061586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_grass_2.png
+  artifactKey: Guid(46047a067010fdd45a3ac8f660a6efe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_grass_2.png using Guid(46047a067010fdd45a3ac8f660a6efe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c42663b5839207dce4ab7402ee7f55ee') in 0.017643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_medium_spruce.fbx
+  artifactKey: Guid(91f2f1175a19a9d47bfdc8726adc102b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/trees/SM_medium_spruce.fbx using Guid(91f2f1175a19a9d47bfdc8726adc102b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaf7a86099d20c8fe0bead54fc3ef440') in 0.0166468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_flower_2.fbx
+  artifactKey: Guid(98ca57d750018eb45a93c2c67f8647b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_flower_2.fbx using Guid(98ca57d750018eb45a93c2c67f8647b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aa73aa296106e0865cf27ed99dd87de') in 0.018601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_cane.fbx
+  artifactKey: Guid(fee4abc8cabce6b439c9d1dc2bee791e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_cane.fbx using Guid(fee4abc8cabce6b439c9d1dc2bee791e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23dfc73d0dcb0d096d9c44e4bd0352ea') in 0.0191878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_tamarind.fbx
+  artifactKey: Guid(41daa8a82ea6e3442a15273d8add4ef1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_tamarind.fbx using Guid(41daa8a82ea6e3442a15273d8add4ef1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89a4308227f8c543c2bbf80ca255862a') in 0.0190006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_swamp_hummock.fbx
+  artifactKey: Guid(5e5ee18504bee5e4a91143ecf6981c12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_swamp_hummock.fbx using Guid(5e5ee18504bee5e4a91143ecf6981c12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe11d99e31a97f594f0925c771e83d70') in 0.0186101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_tree_sprout.mat
+  artifactKey: Guid(eb823a99c4d6f424998bc732d186a786) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_tree_sprout.mat using Guid(eb823a99c4d6f424998bc732d186a786) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '633b543ea8b2d25591323cf14934f10e') in 0.0079869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/coniferous_forest/Materials
+  artifactKey: Guid(aecc3fa79bfa08542a233590939c774c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Materials using Guid(aecc3fa79bfa08542a233590939c774c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '843e16769940521416d5e3996136b48f') in 0.0067819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_grass_1.mat
+  artifactKey: Guid(6d89fedc1b52ca44baa8cc472415b005) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_grass_1.mat using Guid(6d89fedc1b52ca44baa8cc472415b005) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57c79fb0edb959ec8b28ecf1939165b2') in 0.0194181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_pine_1.fbx
+  artifactKey: Guid(d16a1719a9fbd02409a935a67226b6dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/trees/SM_pine_1.fbx using Guid(d16a1719a9fbd02409a935a67226b6dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fed08caba0d3f8fa29bcf0977756e928') in 0.0340939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_field_bell.prefab
+  artifactKey: Guid(fd719cee6e4940240962a53a20ac25c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_field_bell.prefab using Guid(fd719cee6e4940240962a53a20ac25c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36e239370192dd84a536045bbff1d593') in 0.0191156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_flower_1.png
+  artifactKey: Guid(dfdd57c34564a5f4f855b0220a8db1fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_flower_1.png using Guid(dfdd57c34564a5f4f855b0220a8db1fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '040de4bc1a2f853822c220027b3c93a5') in 0.0216673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees
+  artifactKey: Guid(ce6bd5753fdd67147ad2f8cf36d31f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees using Guid(ce6bd5753fdd67147ad2f8cf36d31f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c21a7e653eaa3a1a789fbeb7c34ae03e') in 0.0010906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_4.prefab
+  artifactKey: Guid(43e504e9758aab045ad559eb32b44292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_4.prefab using Guid(43e504e9758aab045ad559eb32b44292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17daf3676e886eeddf8c42af4ab16b19') in 0.0276538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_small_spruce_1.prefab
+  artifactKey: Guid(f920325c25db23f45a277bacc19aefb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_small_spruce_1.prefab using Guid(f920325c25db23f45a277bacc19aefb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78a84ed3840ea97ce870167ab396d11d') in 0.0225873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine.prefab
+  artifactKey: Guid(7fee12bbc28a5e349a0717e6d2e499d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine.prefab using Guid(7fee12bbc28a5e349a0717e6d2e499d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51987d625d0f9a5e9c25cf7e22e13da1') in 0.0209512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce_1.prefab
+  artifactKey: Guid(6a6a8f03e2b7c804ab449e1f451e947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce_1.prefab using Guid(6a6a8f03e2b7c804ab449e1f451e947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c6076ee09c923c83bd32c0f629285c3') in 0.0206215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab
+  artifactKey: Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_medium_spruce.prefab using Guid(dd5f7a44c20c42c408829e5f15fb8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a53dab38087cb88d39ce889e01323c62') in 0.026399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_2.prefab
+  artifactKey: Guid(c93c0ce6aa9a000479e08a75a2c74a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_2.prefab using Guid(c93c0ce6aa9a000479e08a75a2c74a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dbf80e07182ab949b0f8e85a2339358') in 0.0224894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_small_spruce.prefab
+  artifactKey: Guid(a52ed6b0bfefa0145976d11f321fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_small_spruce.prefab using Guid(a52ed6b0bfefa0145976d11f321fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85e5cee57d14c7175f363eedaee673cd') in 0.0168226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_large_spruce.prefab
+  artifactKey: Guid(231e02f67db138f4db3f48da52e0c225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_large_spruce.prefab using Guid(231e02f67db138f4db3f48da52e0c225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17fffc7bf95fdcc27ed93b741bb4f0a1') in 0.0402766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials
+  artifactKey: Guid(277bef88d6679c24788c87fdd0adbb81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials using Guid(277bef88d6679c24788c87fdd0adbb81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1b8032c99a2c6a1e7f7fb34ab0c5df5') in 0.0098803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_long_grass.prefab
+  artifactKey: Guid(878bc833b188d914ca76cf4208060ff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_long_grass.prefab using Guid(878bc833b188d914ca76cf4208060ff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '340979fd964c298a116ef2bd68e83294') in 0.0152034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_snowdrop.prefab
+  artifactKey: Guid(e8a2a3a829c76b041b97b90e56e84a46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_snowdrop.prefab using Guid(e8a2a3a829c76b041b97b90e56e84a46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04e505f8d111c92b359fa30b8b73783e') in 0.0167446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_tree_sprout.png
+  artifactKey: Guid(0b6b9a7790984d84ab7ca5cbd8fa95ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_tree_sprout.png using Guid(0b6b9a7790984d84ab7ca5cbd8fa95ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38965025c6dd8abb984bc6aeaacb06ee') in 0.0249482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_wild_wheat.fbx
+  artifactKey: Guid(f95870c1ad6a84646834b7dbfc7c9913) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_wild_wheat.fbx using Guid(f95870c1ad6a84646834b7dbfc7c9913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9af756651243305ad1b39276ceac15ec') in 0.0290034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/coniferous_forest/Prefabs/trees/SM_pine_1.prefab
+  artifactKey: Guid(e7d88c41465924f4faec967fbbd1adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/trees/SM_pine_1.prefab using Guid(e7d88c41465924f4faec967fbbd1adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70b284d798d100b8d2eab0ebe85bc733') in 0.0231542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/textures/plants/Materials/poly_chamomile.mat
+  artifactKey: Guid(af56dbf911856eb40b96ada60e9f7c4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/Materials/poly_chamomile.mat using Guid(af56dbf911856eb40b96ada60e9f7c4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f687b06799c90965d6678e8f7ee6e88d') in 0.0120966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/textures/plants/poly_onion.png
+  artifactKey: Guid(4a21b7503c5df2346b7b9df969672742) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/poly_onion.png using Guid(4a21b7503c5df2346b7b9df969672742) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ba3ad9d55400edd27c30657ab021051') in 0.0158434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_wild_wheat.prefab
+  artifactKey: Guid(06deeef2a6546c94aa6ec6ee75072f7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_wild_wheat.prefab using Guid(06deeef2a6546c94aa6ec6ee75072f7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dafe5629a2ef234283103fd517c699d7') in 0.0153568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/coniferous_forest/models/plants
+  artifactKey: Guid(cc02d0fbc7d54664886677483185cfe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants using Guid(cc02d0fbc7d54664886677483185cfe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9f3c1ade8d674a148eb3b9e4276f3c4') in 0.0057631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/coniferous_forest/textures/plants/T_000000.gvdesign
+  artifactKey: Guid(2adcda419e5db0f42b46fb839b62f4ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/plants/T_000000.gvdesign using Guid(2adcda419e5db0f42b46fb839b62f4ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd28c4e9c70047e47fa6b8857671c30f3') in 0.0049313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/coniferous_forest/textures/leaves/T_priming.png
+  artifactKey: Guid(a2342516de9e75a4385f04569826779c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/textures/leaves/T_priming.png using Guid(a2342516de9e75a4385f04569826779c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41942b417f5e63e7193a6c40c4f84675') in 0.01475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_long_grass.fbx
+  artifactKey: Guid(88050d15f1d8df947b6901a96ce9ea87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/coniferous_forest/models/plants/SM_long_grass.fbx using Guid(88050d15f1d8df947b6901a96ce9ea87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a028c3154d2b566da36f95b9804f2a7a') in 0.021575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.946775 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_bush.prefab
+  artifactKey: Guid(47d6e3ada9bafeb4884cd189450f6483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_bush.prefab using Guid(47d6e3ada9bafeb4884cd189450f6483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '128ce565dfbc793611ef87516660e064') in 0.0322668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_bush_1 (1).prefab
+  artifactKey: Guid(6db2073b403fcc74c84b3584937b8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_bush_1 (1).prefab using Guid(6db2073b403fcc74c84b3584937b8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '358e0566cff8daa2323d38c52613cba0') in 0.0223888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_bush_1.fbx
+  artifactKey: Guid(9d7b1b947e7cadf4bafad7104a775f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_bush_1.fbx using Guid(9d7b1b947e7cadf4bafad7104a775f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f4c4b65fd8013a0ee5ba87f5fb85d9c') in 0.1032891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.533743 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_cane.prefab
+  artifactKey: Guid(84b5de87baa1de24abc7ebc6db8ed566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_cane.prefab using Guid(84b5de87baa1de24abc7ebc6db8ed566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d1524ac7df6e92ee58916d8f9b13f7') in 0.0398409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_cattail.fbx
+  artifactKey: Guid(5198ba041439b224db5f88a3ced1ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_cattail.fbx using Guid(5198ba041439b224db5f88a3ced1ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c02ef59d7f99051f7b5657301bae3e6d') in 0.0394552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_chamomile.fbx
+  artifactKey: Guid(b682e6985a6b04f418d87b7f64b8cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_chamomile.fbx using Guid(b682e6985a6b04f418d87b7f64b8cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4da6d405dab7028878e81b4669d0374a') in 0.0228896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088558 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab
+  artifactKey: Guid(28efea9479c6f4648951779bd02a0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_dandelion.prefab using Guid(28efea9479c6f4648951779bd02a0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d229f1569ca2a1424051fcc410887a5') in 0.022349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001093 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_field_bell.prefab
+  artifactKey: Guid(fd719cee6e4940240962a53a20ac25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_field_bell.prefab using Guid(fd719cee6e4940240962a53a20ac25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69109c430f484c300dd348aadd42ff59') in 0.0188811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248750 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_flower.fbx
+  artifactKey: Guid(43624d30b5f2b904299e2ce44dba8271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_flower.fbx using Guid(43624d30b5f2b904299e2ce44dba8271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f47e8a24413f140f9e704df4eb8daed') in 0.0227592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_flower_2.fbx
+  artifactKey: Guid(98ca57d750018eb45a93c2c67f8647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_flower_2.fbx using Guid(98ca57d750018eb45a93c2c67f8647b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89e8dca468778e1fd39e7be82238662d') in 0.0323481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176180 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass.fbx
+  artifactKey: Guid(1990c3d1979583d45827147a8f278c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_grass.fbx using Guid(1990c3d1979583d45827147a8f278c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329e8e027fc27434c059a2e6e8685922') in 0.0212735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab
+  artifactKey: Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_grass_2.prefab using Guid(28e3ebbd4ce741b4b9d3c5097a9b2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f68dfc1c753d7eb4d88e87dcba4dc8') in 0.021453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_grass_4.fbx
+  artifactKey: Guid(e81b9fd5f451a73419809aab6bacac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_grass_4.fbx using Guid(e81b9fd5f451a73419809aab6bacac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb5f86ee805e923b94417d463561c6f') in 0.0335172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_medium_spruce.fbx
+  artifactKey: Guid(91f2f1175a19a9d47bfdc8726adc102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/trees/SM_medium_spruce.fbx using Guid(91f2f1175a19a9d47bfdc8726adc102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54d1119f4b292f5f54b9a203cc57414f') in 0.0325811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_plantain.fbx
+  artifactKey: Guid(6ca86f9c60b755749b9b1fc0caed3e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_plantain.fbx using Guid(6ca86f9c60b755749b9b1fc0caed3e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15b97842ec15b92170d94f84e108fe8d') in 0.0200547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_reed.fbx
+  artifactKey: Guid(17b0e9359eafda146944edb343e55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_reed.fbx using Guid(17b0e9359eafda146944edb343e55492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd60e88e41184f24d219cc8af29b5c8') in 0.0226675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_swamp_hummock.prefab
+  artifactKey: Guid(2589c950ad2c82443aead1a0b9c28c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_swamp_hummock.prefab using Guid(2589c950ad2c82443aead1a0b9c28c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22211c4d0f5f7f337389c171ccea3cb4') in 0.0254241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_wild_wheat.prefab
+  artifactKey: Guid(06deeef2a6546c94aa6ec6ee75072f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_wild_wheat.prefab using Guid(06deeef2a6546c94aa6ec6ee75072f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfb0192ad0ef2c76045cb75bd6cd0e8c') in 0.0193712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_water_lily_1.prefab
+  artifactKey: Guid(cb005fa954b09be41ae2dcf6c626df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_water_lily_1.prefab using Guid(cb005fa954b09be41ae2dcf6c626df82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46bd7ff50e934616f423d737489e1ef5') in 0.0181534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_small_spruce_1.fbx
+  artifactKey: Guid(1d64d0bc342337642999bf918456d29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/trees/SM_small_spruce_1.fbx using Guid(1d64d0bc342337642999bf918456d29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3317bef630ae605e2c63f6cb653d4a79') in 0.0317412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_plantain.prefab
+  artifactKey: Guid(46d1e3a63f3c5e74db03767455fe5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_plantain.prefab using Guid(46d1e3a63f3c5e74db03767455fe5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '476d50d83216014d4aff0382fa893592') in 0.0173476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/coniferous_forest/models/plants/SM_water_lily_2.fbx
+  artifactKey: Guid(38de7e3ac183b3942aa7aeba32974cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/plants/SM_water_lily_2.fbx using Guid(38de7e3ac183b3942aa7aeba32974cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78502d7fdcf3700284b5d9cb03d6383c') in 0.0390201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/coniferous_forest/models/trees/SM_pine_4.fbx
+  artifactKey: Guid(39d3ecac33d2afd4d844b893560d1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/models/trees/SM_pine_4.fbx using Guid(39d3ecac33d2afd4d844b893560d1c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfad28ac845a42a854514683423d19b6') in 0.0629422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_tree_sprout.prefab
+  artifactKey: Guid(d5b347dde5204644bb481ab649bf5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_tree_sprout.prefab using Guid(d5b347dde5204644bb481ab649bf5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fadf1d4d7a7570fe3fc273b1c9d705e') in 0.026069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab
+  artifactKey: Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_tamarind.prefab using Guid(6b5d62e7bddf6a54f857d4599d7c473f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ba08ee13cd7ffadd696440cb60bfac7') in 0.0186208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab
+  artifactKey: Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coniferous_forest/Prefabs/plants/SM_reed.prefab using Guid(cb1a301688f42c24d85b353137ed2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3211e6d8a3595ff0853b78a8b76baad0') in 0.024821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

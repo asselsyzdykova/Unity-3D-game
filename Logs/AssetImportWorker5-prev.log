@@ -1,0 +1,1150 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel" at "2025-12-02T12:25:31.0179627Z"
+Built from '6000.2/staging' branch; Version is '6000.2.12f1 (e89d5df0e333) revision 15244637'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15942 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-02T12:25:31Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/assel/skuska
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51994
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/assel/skuska
+C:/Users/assel/skuska
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37268]  Target information:
+
+Player connection [37268]  * "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3398419065 [EditorId] 3398419065 [Version] 1048832 [Id] WindowsEditor(7,ASSEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37268]  * "[IP] 10.10.30.95 [Port] 0 [Flags] 2 [Guid] 3398419065 [EditorId] 3398419065 [Version] 1048832 [Id] WindowsEditor(7,ASSEL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.12f1 (e89d5df0e333)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/assel/skuska/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     7971 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-assel"
+[Licensing::IpcConnector] LicenseClient-assel channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel-6000.2.12" at "2025-12-02T12:25:35.9726819Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              39e708a4a8544b978472877c74653de4
+  Correlation Id:          7ea788e771f1b0e8de18aab6f5011f5f
+  External correlation Id: 7349168773026611479
+  Machine Id:              06lnmavVSsKsGiaawoDn6YYoI+U=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-assel-6000.2.12" (connect: 0.00s, validation: 0.00s, handshake: 4.23s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-assel-6000.2.12-notifications" at "2025-12-02T12:25:40.2038211Z"
+[Licensing::Module] Licensing Background thread has ended after 9.19s
+[Licensing::Module] Licensing is initialized (took 3.47s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972514418693-assel_syzdykova-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2026-11-16T12:54:31Z
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 3.494214 seconds.
+- Loaded All Assemblies, in  5.852 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1668 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.992 seconds
+Domain Reload Profiling: 8835ms
+	BeginReloadAssembly (1333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (234ms)
+	RebuildNativeTypeToScriptingClass (69ms)
+	initialDomainReloadingComplete (3687ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (1219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (497ms)
+			TypeCache.Refresh (493ms)
+				TypeCache.ScanAssembly (459ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2866ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2066ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.893 seconds
+Refreshing native plugins compatible for Editor in 8.85 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.525 seconds
+Domain Reload Profiling: 6435ms
+	BeginReloadAssembly (555ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (2078ms)
+		LoadAssemblies (1476ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (926ms)
+			TypeCache.Refresh (663ms)
+				TypeCache.ScanAssembly (620ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (3566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (531ms)
+			ProcessInitializeOnLoadAttributes (1888ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6128 unused Assets / (3.2 MB). Loaded Objects now: 6847.
+Memory consumption went from 139.2 MB to 136.0 MB.
+Total: 33.395400 ms (FindLiveObjects: 2.050800 ms CreateObjectMapping: 1.894800 ms MarkObjects: 25.497500 ms  DeleteObjects: 3.947600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73759.261178 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Ash/Ash 1.prefab
+  artifactKey: Guid(64df991afecf1ea40b853b2e1cabf4df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Ash/Ash 1.prefab using Guid(64df991afecf1ea40b853b2e1cabf4df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e8598bb8f00bdb90332b4041b163d02') in 0.7795964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 7.prefab
+  artifactKey: Guid(bea7820cec2a1a744b0b353f5c0562e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 7.prefab using Guid(bea7820cec2a1a744b0b353f5c0562e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3628a3855af2ec5e3196cc9c7d05db5') in 0.0360462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 2.prefab
+  artifactKey: Guid(0bd944d7ec2d7e14d897ddb1e56c4d88) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 2.prefab using Guid(0bd944d7ec2d7e14d897ddb1e56c4d88) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '85ff3cc54995b08323c1a1fd9685de69') in 0.0677634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Scenes/SampleScene.unity additively'
+The tree Ash 1 couldn't be instanced because the prefab contains no valid mesh renderer.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 355]
+
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            11.889 ms
+	Integration:            94.607 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       6.973 ms
+	Total Operation Time:   113.475 ms
+ -> (artifact id: 'd7f269b4d0a4a418056276315b55484a') in 0.210242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Ash/Ash 7.prefab
+  artifactKey: Guid(9e065bacc309f8a4c877f23b4b5eebf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Ash/Ash 7.prefab using Guid(9e065bacc309f8a4c877f23b4b5eebf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd39205b24e4ba14fbd4a088437ffdfd') in 0.0759724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2c3d6c59aacb143daef56edad50e43fa') in 0.0175884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab
+  artifactKey: Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab using Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9d3367ccddf672214454145a6ea7c0ed') in 0.0383268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 8.prefab
+  artifactKey: Guid(c4b1d2c471aaff04898b4c566e7d08f2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 8.prefab using Guid(c4b1d2c471aaff04898b4c566e7d08f2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f8eaae07300478b603b70fbfdd9c334f') in 0.0708034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 199
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 1.prefab
+  artifactKey: Guid(ca41ad7dff05aeb4bb3b104e4a55d7f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 1.prefab using Guid(ca41ad7dff05aeb4bb3b104e4a55d7f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9edb57e2c490f86accda1d4eb8e462d4') in 0.1284668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 2.prefab
+  artifactKey: Guid(23c628b176d04df4a83eabf82d31b32d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 2.prefab using Guid(23c628b176d04df4a83eabf82d31b32d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '707f2a48d35fa0359cd45b8526dd41f5') in 0.0837419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Ash/Ash 6.prefab
+  artifactKey: Guid(aa5460b223826e248969f82c803cf03b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Ash/Ash 6.prefab using Guid(aa5460b223826e248969f82c803cf03b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50452f7be35b15aa256660a3ba5e5493') in 0.0970304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad1c49921c3b1508ab49bb55498f6603') in 0.1917137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 5.prefab
+  artifactKey: Guid(5c12347a16d26c54581c374aee9a306f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 5.prefab using Guid(5c12347a16d26c54581c374aee9a306f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18f90f417e954ed6aaa11a8a4b3317b5') in 0.1288462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Weeping Willow/Weeping_Willow 1.prefab
+  artifactKey: Guid(232690b25b4890646bded4e03741b215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Weeping Willow/Weeping_Willow 1.prefab using Guid(232690b25b4890646bded4e03741b215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0543c51313d93de48412f5e38206fe83') in 0.3278756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_8.fbx
+  artifactKey: Guid(a3dbb972b5938bd48977d7a31df70bf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_8.fbx using Guid(a3dbb972b5938bd48977d7a31df70bf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95ded717be62833fd285f413555594ef') in 0.1639334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_2.fbx
+  artifactKey: Guid(e3d7885ce9a810f44be9bbf1a4e1843f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_2.fbx using Guid(e3d7885ce9a810f44be9bbf1a4e1843f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d8aa44abde007cec0ea1e5a1fa45f0a') in 0.0855146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_5.fbx
+  artifactKey: Guid(1a59981b9b4445c469b74964f678852b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_5.fbx using Guid(1a59981b9b4445c469b74964f678852b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95e7f1c46019e09b164276b190d78abf') in 0.1008524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 1.prefab
+  artifactKey: Guid(cf7d9b545839bde4a90b33e15e43da34) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 1.prefab using Guid(cf7d9b545839bde4a90b33e15e43da34) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '24212aa40ecf4eb7d0448c9a0071f898') in 0.1208938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_3.fbx
+  artifactKey: Guid(26abb6d789c179046af7a3c992954661) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_3.fbx using Guid(26abb6d789c179046af7a3c992954661) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c9f4b51fcfe07c68707907ec3bcde85') in 0.0879049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_8.fbx
+  artifactKey: Guid(b04b248bc2ead764bb3ebae3eaf1da10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_8.fbx using Guid(b04b248bc2ead764bb3ebae3eaf1da10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31ae1892ed35f0f131ea0074ea35e4bc') in 0.086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_3.fbx
+  artifactKey: Guid(5ee670923fc9f904380d3eb031e817c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_3.fbx using Guid(5ee670923fc9f904380d3eb031e817c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08a04ba97c57af3bf99debbcfe1000b0') in 0.0664037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_7.fbx
+  artifactKey: Guid(19af98a7c25b18b4a9f4c1226167e0e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_7.fbx using Guid(19af98a7c25b18b4a9f4c1226167e0e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf5fbb3a4d87da167bbf80cc1529776d') in 0.0513505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 6.prefab
+  artifactKey: Guid(affe17d38a3d2d54eac468a8349625db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 6.prefab using Guid(affe17d38a3d2d54eac468a8349625db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75b7532d0bbca7b0886bd23f8da3dee6') in 0.2181725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Birch/Leaf_3.png
+  artifactKey: Guid(a4735825920191d49b86c39379112094) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Textures/Birch/Leaf_3.png using Guid(a4735825920191d49b86c39379112094) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0239b22ac1e34f878f38b0bf923fffbb') in 0.3425805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Ash_Single.mat
+  artifactKey: Guid(4f2e54b7c4326924ab24f93c82988f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Ash_Single.mat using Guid(4f2e54b7c4326924ab24f93c82988f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce24d59b9b08ba78145f58f78510922a') in 0.4734057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 5.prefab
+  artifactKey: Guid(80e6f5c1539d4224db7b9fbd16fc3022) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 5.prefab using Guid(80e6f5c1539d4224db7b9fbd16fc3022) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'caf380985bbbec492e177c64a7ebee6f') in 0.3862889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 126
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Chestnut_Single.png
+  artifactKey: Guid(e43275fa30631b646b829a075d3a21de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Chestnut_Single.png using Guid(e43275fa30631b646b829a075d3a21de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '524947d01b479e1f68a8c02c8408f989') in 0.245613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 1.prefab
+  artifactKey: Guid(400bf841f2409e84e91fef8bda9509bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 1.prefab using Guid(400bf841f2409e84e91fef8bda9509bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd957e939c5977d2f6d91e9cbffc03379') in 0.0303489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 7.prefab
+  artifactKey: Guid(5aad144dfe0872d4ca484ab6a958cf9f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 7.prefab using Guid(5aad144dfe0872d4ca484ab6a958cf9f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6e0e27a03cdb537e3983e6d027631ca8') in 0.0626237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Small_Leaves.mat
+  artifactKey: Guid(a5bdaa20f1d41094aa86630321c7384d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Small_Leaves.mat using Guid(a5bdaa20f1d41094aa86630321c7384d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fad8395377b21cf60b5f1cfb2960faa5') in 0.039609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab
+  artifactKey: Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab using Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6d8e43b27840167571456c83ae97cb4') in 0.0320096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Standard/Chestnut_Single.mat
+  artifactKey: Guid(7825b68992e566e41992571c46f6fc1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Standard/Chestnut_Single.mat using Guid(7825b68992e566e41992571c46f6fc1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fc5defec5202c7c440dac0d3abf8b41') in 0.0760551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Ash/Ash_Leaves_1.mat
+  artifactKey: Guid(4477e1a4280ef5448920085148e2bfc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Ash/Ash_Leaves_1.mat using Guid(4477e1a4280ef5448920085148e2bfc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ef416cd208a9f933b55801364c84007') in 0.0350594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Realistic Tree/Source/Models/Ash/Ash_6.fbx
+  artifactKey: Guid(a95f30929d2c0c74085b979f22f609ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Ash/Ash_6.fbx using Guid(a95f30929d2c0c74085b979f22f609ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c5f7934d4b3e5e1124b092ab376a6b0') in 0.0685631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow/Weeping_Willow.mat
+  artifactKey: Guid(af2d8571842dbb3429992538cf47c681) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow/Weeping_Willow.mat using Guid(af2d8571842dbb3429992538cf47c681) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7ac2964ab3dc0373d1dd7a6fc610e74') in 0.0274301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 10.prefab
+  artifactKey: Guid(19f2ea08d89c7954699355e926a96439) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 10.prefab using Guid(19f2ea08d89c7954699355e926a96439) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3ab8470b25da0bbadf90a72aa0fcc92a') in 0.045638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Flower.mat
+  artifactKey: Guid(71c4c072159247e45b5a91baf0e278ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Flower.mat using Guid(71c4c072159247e45b5a91baf0e278ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54098ff5d4fb97f52ba95680b7f69314') in 0.0230177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 6.prefab
+  artifactKey: Guid(638c1b44ce6868d48bd2a8306f5bb3f8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 6.prefab using Guid(638c1b44ce6868d48bd2a8306f5bb3f8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '96df5eebb8044dba17453cee9ec31699') in 0.0891246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 1.prefab
+  artifactKey: Guid(6fcf7f27da01aba499a0be03812f9f67) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 1.prefab using Guid(6fcf7f27da01aba499a0be03812f9f67) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'adface6112d3e54fa35bfaf659418a49') in 0.0501349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 126
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Weeping_Single.mat
+  artifactKey: Guid(71a973528b23d934ea7bee28cfe50e1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Weeping_Single.mat using Guid(71a973528b23d934ea7bee28cfe50e1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e28903c16195854c375c852cdd17852') in 0.0291738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 6.prefab
+  artifactKey: Guid(1f14f87b5b2ebb44ab13d657de58abbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 6.prefab using Guid(1f14f87b5b2ebb44ab13d657de58abbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e15a9466a8915170fe6b06ef1dab6f75') in 0.1216063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 7.prefab
+  artifactKey: Guid(e068dda4a5bb1b040b4492d6d560ba31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 7.prefab using Guid(e068dda4a5bb1b040b4492d6d560ba31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d02fc6b626e3b8d4be1bc4906828e4c') in 0.112185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch Group 1.prefab
+  artifactKey: Guid(4fffea226fd645b4693a82e2391d4662) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch Group 1.prefab using Guid(4fffea226fd645b4693a82e2391d4662) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd072b3f147e6572df90301c59fdb2205') in 0.1387037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Realistic Tree/Demo Scene/Rotate.cs
+  artifactKey: Guid(2d45e066ede448543a97c655d6313a60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Demo Scene/Rotate.cs using Guid(2d45e066ede448543a97c655d6313a60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a9ab822d362f5ac4fd83c6b340f1341') in 0.0116528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_2.mat
+  artifactKey: Guid(fae08c5be933121489a3b66a9374d9e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_2.mat using Guid(fae08c5be933121489a3b66a9374d9e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6957f29f06935c946560a9628a865b52') in 0.0217419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.000419 seconds.
+  path: Assets/Realistic Tree/Demo Scene/Demo_Scene_URP.unity
+  artifactKey: Guid(2ec7779e62935c541abc872a0344f28a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Demo Scene/Demo_Scene_URP.unity using Guid(2ec7779e62935c541abc872a0344f28a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e28fef3defc193f026ed8e8c3ced53e') in 0.0303414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.933592 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP
+  artifactKey: Guid(23c14dc9f3572b4469db3ac4bc1dcc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP using Guid(23c14dc9f3572b4469db3ac4bc1dcc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e2287fcc9d4abfde6d46a30bf00a14') in 0.0022897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.732134 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch
+  artifactKey: Guid(85c2d9d7f72ce0d41866b710b0d55afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch using Guid(85c2d9d7f72ce0d41866b710b0d55afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dea4b118da6933232c4d71246114a40b') in 0.0034114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 1.prefab
+  artifactKey: Guid(67fc7923dbcf47447a74625d30aba72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 1.prefab using Guid(67fc7923dbcf47447a74625d30aba72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '392b1e95c90216ecdc53d15f8f845104') in 0.8835288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 6.prefab
+  artifactKey: Guid(88496e6d55c5adf4dbd3eb7678289066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 6.prefab using Guid(88496e6d55c5adf4dbd3eb7678289066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f43f60db997c3182c43ffefbf42216f') in 0.0649221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 9.prefab
+  artifactKey: Guid(d997dbe7d13d5724083c44726c9e5180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 9.prefab using Guid(d997dbe7d13d5724083c44726c9e5180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bcaa700a8d9bd0118806e9a24dfcc66') in 0.058986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 4.prefab
+  artifactKey: Guid(620bbd58089cc524d87ebdf951a4c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 4.prefab using Guid(620bbd58089cc524d87ebdf951a4c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b728631421cb8662dc7749e7fe711169') in 0.0578156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.695846 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Birch_Single.mat
+  artifactKey: Guid(5143e1d8a18a50b4889f6839d86a470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Birch_Single.mat using Guid(5143e1d8a18a50b4889f6839d86a470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89f111bc362a3c25f13fb1315b567bf') in 0.0748319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.387915 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(65df4190bba2dbd44ae3210bfe7a9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(65df4190bba2dbd44ae3210bfe7a9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree Ash 1 couldn't be instanced because the prefab contains no valid mesh renderer.
+ -> (artifact id: 'a645150132b77330352232b179d51483') in 0.020729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6118 unused Assets / (4.4 MB). Loaded Objects now: 7034.
+Memory consumption went from 146.7 MB to 142.3 MB.
+Total: 17.282700 ms (FindLiveObjects: 0.866500 ms CreateObjectMapping: 1.178300 ms MarkObjects: 11.296100 ms  DeleteObjects: 3.939800 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.378 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 2526ms
+	BeginReloadAssembly (401ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (39ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (844ms)
+		LoadAssemblies (696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (276ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (875ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (240ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6122 unused Assets / (6.1 MB). Loaded Objects now: 6924.
+Memory consumption went from 146.0 MB to 139.9 MB.
+Total: 13.573000 ms (FindLiveObjects: 1.137000 ms CreateObjectMapping: 0.885600 ms MarkObjects: 7.098200 ms  DeleteObjects: 4.450300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 67.253985 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample
+  artifactKey: Guid(ec09941cc0a12064d8a4dda9ff8c280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample using Guid(ec09941cc0a12064d8a4dda9ff8c280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aae4c78ce248a920eaa90b55500cd003') in 0.0193514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.989007 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(c43c894431f85404aa0feaa161cb0f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(c43c894431f85404aa0feaa161cb0f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6767119c989812df717aef8eaa6bc43c') in 0.0015151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(c73eb2c411327664189e4c82d27a3b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer using Guid(c73eb2c411327664189e4c82d27a3b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92c0c77cd0254878fe8ab2b1c8d1dcf') in 0.1005542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.502950 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga
+  artifactKey: Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01_b.tga using Guid(b69992f31e7145e4ba49aa8118c5541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec086d88722674988eb5cf235c0353b6') in 0.062194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.178933 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga
+  artifactKey: Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga using Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3249b65e72f9c1f8952c40ec109c4c64') in 0.0178293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.119532 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes
+  artifactKey: Guid(62872d07d188c1c40b0a8f51ce5f5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes using Guid(62872d07d188c1c40b0a8f51ce5f5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcbbefbd6116dda0ab4e24b538286ec0') in 0.0008643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset
+  artifactKey: Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset using Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d47be9c107636f63c864516602b4565') in 0.1634397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.613700 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/assets.unity
+  artifactKey: Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/assets.unity using Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab85833c8ead41cde7f02ad9fd993d64') in 0.0009279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.018686 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a951906e55e5d9c429e087e0cad27064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a951906e55e5d9c429e087e0cad27064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20bfa6fc8616060daf81285be0403177') in 0.0064864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.980520 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f876172921999cdd1fa8a2215f5ce82') in 0.0048832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.186615 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes
+  artifactKey: Guid(eaaaee0f57e935647bce706f4ad8f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes using Guid(eaaaee0f57e935647bce706f4ad8f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b69cf607d6f12879ab29e99f55ed35c0') in 0.0020429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.789640 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs
+  artifactKey: Guid(9c7916be32b4831459e123e056137170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs using Guid(9c7916be32b4831459e123e056137170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5444c72d6ca04e3ab42bc61b81204a5c') in 0.0008847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/grass01.prefab
+  artifactKey: Guid(b48086d9f175aa34b947a21c8056c3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/grass01.prefab using Guid(b48086d9f175aa34b947a21c8056c3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c1dd3615674fc348da59c58ab6e2d1') in 0.9300648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.327096 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab
+  artifactKey: Guid(eded051879df4c147b9010199d240258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Prefabs/tree_1.prefab using Guid(eded051879df4c147b9010199d240258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c06daa9dd51b7a4a12f281dc6a32dae') in 4.2090539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.168242 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures
+  artifactKey: Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures using Guid(9fcce063c50b58049b8c0bb17dc31ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bad5a447beab91294ffc785dfff1642') in 0.0012975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png
+  artifactKey: Guid(4e364662e65fd2d4a995a4efe45af277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png using Guid(4e364662e65fd2d4a995a4efe45af277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32095cdee4da5dfcbd9f3f18a4f5fcb7') in 0.0346028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Textures/tree_branches.png
+  artifactKey: Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest Environment Free Sample/Textures/tree_branches.png using Guid(1d49d1e2d8a2b97478e3e0355dbf3a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6142c0e524f8b0e43a9d91eef8f16a2d') in 0.0140244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.497058 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/PostProcessing Profile.asset
+  artifactKey: Guid(84e004e54aa75074885db0856eedb697) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/PostProcessing Profile.asset using Guid(84e004e54aa75074885db0856eedb697) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab5aeaca8a139fbd60879cb8566d312f') in 0.2588017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials
+  artifactKey: Guid(cd0f69bea45e4f84ea174419ce134ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials using Guid(cd0f69bea45e4f84ea174419ce134ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc1f76e07a564c9e0a31d1f41d1f483f') in 0.2399959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/assets/LightingData.asset
+  artifactKey: Guid(3266c5632399f344abd784da1e5e2156) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/assets/LightingData.asset using Guid(3266c5632399f344abd784da1e5e2156) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c672bf387603cfc1a985bce12c13a8a') in 0.0522844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample
+  artifactKey: Guid(ec09941cc0a12064d8a4dda9ff8c280a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample using Guid(ec09941cc0a12064d8a4dda9ff8c280a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc9a5b0267c1d15730f4961813bac45b') in 0.0098606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Meshes/Source
+  artifactKey: Guid(05153222d4fafb14f86e74c3f1ee4eba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Meshes/Source using Guid(05153222d4fafb14f86e74c3f1ee4eba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6f883b3682ed62cf343c2ea298b966c') in 0.0074951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat
+  artifactKey: Guid(0666ed421e3d1f146a986f726e7354c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Materials/grassmesh.mat using Guid(0666ed421e3d1f146a986f726e7354c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47abf26df78502d9bdbea5b3219987f3') in 0.039567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/assets.unity
+  artifactKey: Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/assets.unity using Guid(a143ab047b99a124ca579bc8e0366cd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db52ee1762f7f0199c927bf29695aa9c') in 0.0115781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset
+  artifactKey: Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset using Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.AssetDatabase:LoadMainAssetAtPath_Injected <0x00069>
+	  at UnityEditor.AssetDatabase:LoadMainAssetAtPath <0x00242>
+	  at UnityEditor.Search.AssetIndexer:IndexProperties <0x00082>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00e3a>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00163>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Mono;.;C:\Users\assel\skuska;C:\Users\assel\skuska\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'assel'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe:Unity.exe (00007FF66FB20000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.2.12.40285
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFA98E40000), size: 2523136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Avast Software\Avast\aswhook.dll:aswhook.dll (00007FFA57060000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 25.11.10580.0
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFA97660000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFA96390000), size: 4161536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFA97730000), size: 1863680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFA96910000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFA98720000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFA96040000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFA95F90000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFA96A90000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFA97120000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.dll:Unity.dll (00007FF94EC20000), size: 87818240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.2.12.40285
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFA96790000), size: 1536000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFA988B0000), size: 737280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFA982A0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.7019
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFA96BE0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFA97450000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFA98360000), size: 1667072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFA96C90000), size: 3715072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFA7E1B0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFA98970000), size: 4759552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFA97B40000), size: 7663616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\wintypes.dll:wintypes.dll (00007FFA96170000), size: 1486848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF95FA90000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF989110000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\etccompress.dll:etccompress.dll (00007FF960240000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFA97160000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFA973D0000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FF96CDF0000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFA971D0000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFA96940000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFA7E830000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2403.8001
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF966070000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7019_none_3e06ffa0e335b8a8\COMCTL32.dll:COMCTL32.dll (00007FFA80240000), size: 2703360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.26100.7019
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFA917A0000), size: 2498560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFA95E80000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFA82CD0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFA92E20000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFA92CA0000), size: 1282048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFA943E0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFA94870000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFA763E0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFA6BEE0000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFA93670000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFA590E0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFA59B50000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF95F1F0000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFA6C9A0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFA8FBF0000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FF963C50000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFA82D00000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFA7D280000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFA95DF0000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF9B6510000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFA929D0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFA92C50000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFA94FF0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\OpenRL.dll:OpenRL.dll (0000018AF1EE0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005CB50000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005C800000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\embree.dll:embree.dll (00007FF95E200000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFA95AE0000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\tbb.dll:tbb.dll (00007FFA462F0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFA952C0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000018AF08D0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFA95DD0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFA956B0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFA962E0000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFA94D50000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFA92B50000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFA93B80000), size: 8769536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFA97020000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFA95EB0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFA95580000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFA94CB0000), size: 237568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFA955A0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFA4F6C0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFA90A70000), size: 2293760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFA97630000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFA97570000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFA8FB60000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFA98350000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFA8FE50000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFA8FDD0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFA948B0000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFA70CD0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFA70BC0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFA6D590000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFA6CC90000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\Program Files\Bonjour\mdnsNSP.dll:mdnsNSP.dll (000000005D620000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.1.0.1
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFA900D0000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFA87C20000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFA86CB0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FF95D990000), size: 8843264 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FF95D800000), size: 1605632 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FFA95330000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FFA65640000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFA92B00000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF9B87F0000), size: 352256 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFA80B40000), size: 618496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFA95B40000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFA90210000), size: 405504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ed531570852d256f\igd10iumd64.dll:igd10iumd64.dll (00007FFA8E370000), size: 4149248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5333
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFA92920000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ed531570852d256f\igd10um64xe.DLL:igd10um64xe.DLL (00007FFA8C840000), size: 25219072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5333
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ed531570852d256f\IntelControlLib.dll:IntelControlLib.dll (00007FFA8C1B0000), size: 602112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.184.0
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ed531570852d256f\igdgmm64.dll:igdgmm64.dll (00007FFA8BCD0000), size: 4448256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5333
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ed531570852d256f\igc64.dll:igc64.dll (00007FFA87C80000), size: 67379200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5333
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFA5C180000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\radeonrays.dll:radeonrays.dll (00007FF989010000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.2.12f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF959920000), size: 10760192 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFA907C0000), size: 1060864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.7019
+C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FFA56ED0000), size: 765952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFA57080000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FFA80FA0000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFA56030000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FFA734B0000), size: 1957888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.7019
+C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FFA75DA0000), size: 2904064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.7019
+C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FFA79A70000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FFA94560000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
+C:\Windows\System32\cldapi.dll:cldapi.dll (00007FFA56060000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFA590C0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFA95640000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFA6C0C0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFA6C040000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFA667E0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFA656F0000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFA64EF0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFA95370000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Program Files\McAfee\MfeAV\AMSIExt.dll:AMSIExt.dll (00007FFA64DE0000), size: 835584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.7.252.0
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFA98580000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\Program Files\Avast Software\Avast\aswAMSI.dll:aswAMSI.dll (00007FFA64A80000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 25.11.10580.0
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFA933D0000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF94FB476B8 (Unity) core::base_hash_set<core::pair<core::basic_string<char,core::StringStorageDefault<char> > const ,Hash128,1>,core::hash_pair<core::hash<core::basic_string_ref<char> >,core::basic_string<char,core::StringStorageDefault<char> > >,core::equal_pair<std::equal_to<core::basic_string_ref<char> >,core::basic_string<char,core::StringStorageDefault<char> > > >::lookup<core::basic_string<char,core::StringStorageDefault<char> >,core::equal_pair<std::equal_to<core::basic_string_ref<char> >,core::basic_string<char,core::StringStorageDefault<char> > > >
+0x00007FF951160DBC (Unity) GuidReservations::Reserve
+0x00007FF951152E9C (Unity) ImportAtPathV2
+0x00007FF9510C8CE4 (Unity) AssetDatabase::ImportAtPath
+0x00007FF9505621C5 (Unity) SplatDatabase::CreateTerrainLayersFromDeprecatedSplats
+0x00007FF9505606E9 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007FF95055C292 (Unity) SplatDatabase::AwakeFromLoad
+0x00007FF95058FA96 (Unity) TerrainData::AwakeFromLoad
+0x00007FF94FC7A838 (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007FF94FC7B8A9 (Unity) AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad
+0x00007FF94FC7B3DD (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007FF94FC4D0E3 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007FF94FC4D9D0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007FF94FC51D57 (Unity) PersistentManager::ReadObject
+0x00007FF94F2AA401 (Unity) AssetDatabase_CUSTOM_LoadMainAssetAtPath
+0x0000018CBB38965A (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:LoadMainAssetAtPath_Injected (UnityEngine.Bindings.ManagedSpanWrapper&)
+0x0000018CBB3891E3 (Mono JIT Code) UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+0x0000018CAFE36E63 (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+0x0000018CAFE23E5B (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+0x0000018CAFE1E604 (Mono JIT Code) UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+0x0000018CAFE1E479 (Mono JIT Code) UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+0x0000018CBB3787B3 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FF959BA6E7E (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\mini\mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007FF959AE8874 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3068] do_runtime_invoke 
+0x00007FF959AE8960 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3115] mono_runtime_invoke 
+0x00007FF94FBBC924 (Unity) scripting_method_invoke
+0x00007FF94FB94EC3 (Unity) ScriptingInvocation::Invoke
+0x00007FF951227137 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF9510FE7FE (Unity) ImportToObjects
+0x00007FF9510FD682 (Unity) ImportAsset
+0x00007FF9511214E9 (Unity) AssetImportWorker::Import
+0x00007FF95118ECD3 (Unity) <lambda_87ac509f952b3a21fceb5af0e15c55b4>::operator()
+0x00007FF9511CDC6F (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007FF9511BB561 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007FF9511BC784 (Unity) asio::detail::win_iocp_io_context::run
+0x00007FF9511CC2D9 (Unity) IOService::Run
+0x00007FF95119ED6F (Unity) AssetImportWorkerClient::Run
+0x00007FF951162E48 (Unity) RunAssetImportWorkerClientV2
+0x00007FF951162EBB (Unity) RunAssetImporterV2
+0x00007FF950944BA0 (Unity) Application::InitializeProject
+0x00007FF950F28AD5 (Unity) UnityMain
+0x00007FF66FB22F2A (Unity) __scrt_common_main_seh
+0x00007FFA9768E8D7 (KERNEL32) BaseThreadInitThunk
+0x00007FFA98ECC53C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/assel/AppData/Local/Temp/Unity/Editor/Crashes
