@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 75.73
+      value: 75.594
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0000021457672
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 55.19714
+      value: 56.377
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66,6 +66,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6708710090668195248}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3083327974351783187}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4066089077302179686}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17261131074779413}
   m_SourcePrefab: {fileID: 100100000, guid: 55543cb9165ae3c4ca782a2af635bc67, type: 3}
 --- !u!1 &5569228664966116053 stripped
 GameObject:
@@ -106,4 +115,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92f5426d4dd26ad45a2bf5eca117eca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NavigationScript
-  player: {fileID: 4018733523904551424, guid: 8b338f939828dcb43835a2c07d0eaf62, type: 3}
+--- !u!114 &-3083327974351783187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569228664966116053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3efa9837d618d647b97bd85c0b81ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
+  maxHealth: 100
+--- !u!136 &4066089077302179686
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569228664966116053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5557089
+  m_Height: 3.513813
+  m_Direction: 1
+  m_Center: {x: -0.024291039, y: 0.2619064, z: 0}
+--- !u!114 &17261131074779413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569228664966116053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4f38afd1cf76d4eaf06bf20a5a6fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieAttack
+  damageAmount: 10
+  attackRate: 5
+  playerInZone: 0
