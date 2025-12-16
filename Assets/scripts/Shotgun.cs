@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using TMPro;
 
 public class Shotgun : MonoBehaviour
 {
@@ -8,17 +10,30 @@ public class Shotgun : MonoBehaviour
     public float range = 100f;  
     public int pellets = 5;      
 
+    [Header("Ammo Settings")]
+    public int currentAmmo = 5;     
+    public int magSize = 5;        
+    public int totalAmmo = 50;   
+
     [Header("Audio Settings")]
     public AudioClip shootSound; 
     private AudioSource audioSource; 
+    public AudioClip reloadSound;
+    public AudioClip emptySound;
+
+    [Header("UI Settings")]
+    public TextMeshProUGUI ammoText;
 
     [Header("References")]
     public Transform firePoint;
     [Tooltip("Layers the beam can hit (must exclude player and weapons)")]
-    public LayerMask hittableMask;  
+    public LayerMask hittableMask;
+
+    public Animator playerAnim;  
+    public float reloadDuration = 2.0f; 
 
     private float nextTimeToFire = 0f; 
-
+    private bool isReloading = false;
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -27,19 +42,86 @@ public class Shotgun : MonoBehaviour
         {
             audioSource = gameObject.AddComponent<AudioSource>();
         }
+        UpdateAmmoUI();
     }
 
     void Update()
     {
+        if (isReloading) return;
+
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
-            nextTimeToFire = Time.time + fireRate;
-            Shoot(); 
+            if (currentAmmo > 0)
+            {
+                nextTimeToFire = Time.time + fireRate;
+                Shoot(); 
+            }
+            else
+            {
+                PlayEmptySound();
+                nextTimeToFire = Time.time + fireRate; 
+            }
         }
+        if (Input.GetKeyDown(KeyCode.R) && currentAmmo < magSize && totalAmmo > 0)
+        {
+            TryReload();
+        }
+    }
+
+    void UpdateAmmoUI()
+    {
+        if (ammoText != null)
+        {
+            ammoText.text = currentAmmo + " [" + totalAmmo + "]";
+        }
+    }
+
+    void TryReload()
+    {
+        if (playerAnim == null) return;
+
+        if (playerAnim.GetCurrentAnimatorStateInfo(0).IsName("stand"))
+        {
+            StartCoroutine(ReloadRoutine());
+        }
+    }
+
+    IEnumerator ReloadRoutine()
+    {
+        isReloading = true;
+
+        if (playerAnim != null)
+        {
+            playerAnim.SetBool("isReloading", true);
+        }
+
+        if (reloadSound != null && audioSource != null)
+        {
+        audioSource.PlayOneShot(reloadSound);
+        }
+
+        yield return new WaitForSeconds(reloadDuration);
+
+        int ammoNeeded = magSize - currentAmmo; 
+        int ammoToSet = Mathf.Min(ammoNeeded, totalAmmo);
+
+        currentAmmo += ammoToSet;
+        totalAmmo -= ammoToSet;
+
+        UpdateAmmoUI();
+
+        if (playerAnim != null)
+        {
+            playerAnim.SetBool("isReloading", false);
+        }
+
+        isReloading = false;
     }
 
     void Shoot()
     {
+        currentAmmo--;
+        UpdateAmmoUI();
         if (shootSound != null)
         {
             audioSource.PlayOneShot(shootSound);
@@ -65,5 +147,13 @@ public class Shotgun : MonoBehaviour
                 Debug.Log("Trafil do: " + hit.transform.name);
             }
         }
+    }
+    void PlayEmptySound()
+    {
+        if (emptySound != null)
+        {
+            audioSource.PlayOneShot(emptySound);
+        }
+        Debug.Log("Ammo empty!");
     }
 }

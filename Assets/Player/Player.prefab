@@ -192,7 +192,7 @@ Transform:
   m_GameObject: {fileID: 2771348991188457940}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.4728775, z: -0, w: 0.8811282}
-  m_LocalPosition: {x: 0.265, y: 0.155, z: 0.133}
+  m_LocalPosition: {x: 0.263, y: 0.137, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -876,6 +876,11 @@ MonoBehaviour:
   maxHealth: 500
   isAlive: 1
   healthSlider: {fileID: 0}
+--- !u!95 &4018733523914339450 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: bdd7a03fd93bf2d4cb6babd63ceabee8, type: 3}
+  m_PrefabInstance: {fileID: 4018733523904938266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6319524447133552713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -972,11 +977,18 @@ MonoBehaviour:
   damage: 10
   range: 100
   pellets: 5
+  currentAmmo: 5
+  magSize: 5
+  totalAmmo: 20
   shootSound: {fileID: 8300000, guid: 4496750a1a045424689380e6c66cd091, type: 3}
+  reloadSound: {fileID: 8300000, guid: a3e0cffbf3bbdde4c9141d705e316b79, type: 3}
+  emptySound: {fileID: 8300000, guid: 182df395c0951f94ba7e013b8d83e1f3, type: 3}
   firePoint: {fileID: 5857802539579325231}
   hittableMask:
     serializedVersion: 2
     m_Bits: 119
+  playerAnim: {fileID: 4018733523914339450}
+  reloadDuration: 2
 --- !u!4 &6319524447133682377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bf2593fe0c804b84688e307cfb1ddfae, type: 3}
