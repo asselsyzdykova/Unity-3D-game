@@ -13,9 +13,17 @@ public class ZombieAttack : MonoBehaviour
     
     private const string PlayerTag = "Player"; 
 
+    private Animator anim;
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     void Update()
     {
-        
+        if (anim != null)
+        {
+            anim.SetBool("isAttacking", playerInZone);
+        }   
         if (playerInZone && targetHealth != null && Time.time >= nextAttackTime)
         {
             AttackPlayer();
@@ -53,6 +61,6 @@ public class ZombieAttack : MonoBehaviour
         
         nextAttackTime = Time.time + attackRate;
         
-        Debug.Log("A zombie has attacked! The next attack will occur in " + attackRate + " seconds.");
+        Debug.Log("A zombie has attacked!");
     }
 }

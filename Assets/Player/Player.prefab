@@ -875,6 +875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 500
   isAlive: 1
+  healthSlider: {fileID: 0}
 --- !u!1001 &6319524447133552713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -971,6 +972,7 @@ MonoBehaviour:
   damage: 10
   range: 100
   pellets: 5
+  shootSound: {fileID: 8300000, guid: 4496750a1a045424689380e6c66cd091, type: 3}
   firePoint: {fileID: 5857802539579325231}
   hittableMask:
     serializedVersion: 2

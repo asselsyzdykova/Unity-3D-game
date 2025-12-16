@@ -8,12 +8,26 @@ public class Shotgun : MonoBehaviour
     public float range = 100f;  
     public int pellets = 5;      
 
+    [Header("Audio Settings")]
+    public AudioClip shootSound; 
+    private AudioSource audioSource; 
+
     [Header("References")]
     public Transform firePoint;
     [Tooltip("Layers the beam can hit (must exclude player and weapons)")]
     public LayerMask hittableMask;  
 
     private float nextTimeToFire = 0f; 
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+    }
 
     void Update()
     {
@@ -26,6 +40,10 @@ public class Shotgun : MonoBehaviour
 
     void Shoot()
     {
+        if (shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
         for (int i = 0; i < pellets; i++)
         {
             // Raycasting
