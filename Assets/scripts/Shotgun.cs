@@ -9,6 +9,7 @@ public class Shotgun : MonoBehaviour
     public float damage = 25f;    
     public float range = 100f;  
     public int pellets = 5;      
+    public float spread = 0.2f;
 
     [Header("Ammo Settings")]
     public int currentAmmo = 5;     
@@ -31,6 +32,8 @@ public class Shotgun : MonoBehaviour
 
     public Animator playerAnim;  
     public float reloadDuration = 2.0f; 
+    public GameObject impactEffectPrefab;
+    public GameObject muzzleFlashPrefab;
 
     private float nextTimeToFire = 0f; 
     private bool isReloading = false;
@@ -49,6 +52,7 @@ public class Shotgun : MonoBehaviour
     {
         if (isReloading) return;
 
+        if (GameUIManager.isPaused) return;
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             if (currentAmmo > 0)
@@ -122,20 +126,38 @@ public class Shotgun : MonoBehaviour
     {
         currentAmmo--;
         UpdateAmmoUI();
+
+        if (muzzleFlashPrefab != null)
+        {
+            GameObject flash = Instantiate(muzzleFlashPrefab, firePoint.position, firePoint.rotation);
+            flash.transform.parent = firePoint; 
+            Destroy(flash, 0.1f);
+        }
+
         if (shootSound != null)
         {
             audioSource.PlayOneShot(shootSound);
         }
         for (int i = 0; i < pellets; i++)
         {
-            // Raycasting
             RaycastHit hit;
             
-            Vector3 shotDirection = firePoint.forward; 
+            Vector3 spreadVector = new Vector3(
+                Random.Range(-spread, spread),
+                Random.Range(-spread, spread),
+                Random.Range(-spread, spread)
+            );
+            Vector3 shotDirection = (firePoint.forward + spreadVector).normalized;
     
             if (Physics.Raycast(firePoint.position, shotDirection, out hit, range, hittableMask)) 
             {
                 Debug.DrawRay(firePoint.position, shotDirection * range, Color.yellow, 0.5f);
+
+                if (impactEffectPrefab != null)
+                {
+                    GameObject impact = Instantiate(impactEffectPrefab, hit.point, Quaternion.LookRotation(hit.normal));
+                    Destroy(impact, 1f);
+                }
                 
                 ZombieHealth zombie = hit.transform.GetComponentInParent<ZombieHealth>();
                 

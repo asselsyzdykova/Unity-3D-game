@@ -303,6 +303,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231e02f67db138f4db3f48da52e0c225, type: 3}
+--- !u!114 &733613082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4386043973381672802, guid: c23ca97573ec6d545ae8829dd1335000, type: 3}
+  m_PrefabInstance: {fileID: 6415537684877265746}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231309b84054fb24286645421b8d58eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameUIManager
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1126426833989592211, guid: 8b338f939828dcb43835a2c07d0eaf62, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 733613082}
     - target: {fileID: 1126426833989592211, guid: 8b338f939828dcb43835a2c07d0eaf62, type: 3}
       propertyPath: healthSlider
       value: 

@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("UI Reference")]
     public Slider healthSlider;
-
+    public GameUIManager uiManager;
     void Start()
     {
         currentHealth = maxHealth;
@@ -44,5 +44,6 @@ public class PlayerHealth : MonoBehaviour
     {
         isAlive = false;
         Debug.Log("PLAYER DIE!");
+        uiManager.ShowDeathScreen();
     }
 }
