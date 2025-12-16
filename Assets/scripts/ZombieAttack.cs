@@ -3,7 +3,7 @@ public class ZombieAttack : MonoBehaviour
 {
     [Header("Attack Settings")]
     public float damageAmount = 10f;
-    public float attackRate = 5f;
+    public float attackRate = 1f;
 
     [Header("Debug")]
     public bool playerInZone = false; 

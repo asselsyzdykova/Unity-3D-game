@@ -163,6 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4f38afd1cf76d4eaf06bf20a5a6fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieAttack
-  damageAmount: 10
-  attackRate: 5
+  damageAmount: 20
+  attackRate: 1
   playerInZone: 0
