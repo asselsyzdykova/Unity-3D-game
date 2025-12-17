@@ -79,11 +79,8 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition(rb.position + moveDir * moveSpeed * Time.deltaTime);
 
-        if (moveDir.magnitude > 0.1f)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(moveDir);
-            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-        }
+        // Вращение управляется камерой (FirstPersonCamera), не движением
+        // Убрано автоповорот в направлении движения для FPS
 
         anim.SetFloat("Speed", moveDir.magnitude);
         logTimer += Time.deltaTime;

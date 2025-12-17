@@ -40,6 +40,20 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void Heal(float amount)
+    {
+        if (!isAlive) return;
+
+        currentHealth += amount;
+        currentHealth = Mathf.Min(currentHealth, maxHealth); // Не больше максимума
+        Debug.Log("Healed! Health: " + currentHealth);
+
+        if (healthSlider != null)
+        {
+            healthSlider.value = currentHealth;
+        }
+    }
+
     void Die()
     {
         isAlive = false;
