@@ -24,6 +24,22 @@ public class AmmoSpawner : MonoBehaviour
 
     void CheckAmmo()
     {
+        if (player != null)
+        {
+            for (int i = activeAmmoPacks.Count - 1; i >= 0; i--)
+            {
+                if (activeAmmoPacks[i] != null)
+                {
+                    float distance = Vector3.Distance(player.position, activeAmmoPacks[i].transform.position);
+                    
+                    if (distance > spawnRadius + 10f)
+                    {
+                        Destroy(activeAmmoPacks[i]);
+                    }
+                }
+            }
+        }
+
         activeAmmoPacks.RemoveAll(pack => pack == null);
 
         int needToSpawn = maxAmmoPacks - activeAmmoPacks.Count;

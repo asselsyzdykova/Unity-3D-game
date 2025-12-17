@@ -29,7 +29,26 @@ public class HealthSpawner : MonoBehaviour
     }
 
     void CheckHealthPickups()
-    {
+    {   
+        // 1. Проверяем расстояние и удаляем те, что слишком далеко
+        if (player != null)
+        {
+            // Перебираем список с конца в начало, чтобы безопасно удалять элементы
+            for (int i = healthPickups.Count - 1; i >= 0; i--)
+            {
+                if (healthPickups[i] != null)
+                {
+                    float distance = Vector3.Distance(player.position, healthPickups[i].transform.position);
+                    
+                    // Если ты ушел дальше, чем радиус спавна + 10 метров запаса
+                    if (distance > spawnRadius + 10f)
+                    {
+                        Destroy(healthPickups[i]); // Удаляем объект со сцены
+                    }
+                }
+            }
+        }
+
         // Удаляем уничтоженные объекты из списка
         healthPickups.RemoveAll(h => h == null);
 
