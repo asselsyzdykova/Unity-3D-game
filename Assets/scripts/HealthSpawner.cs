@@ -30,29 +30,24 @@ public class HealthSpawner : MonoBehaviour
 
     void CheckHealthPickups()
     {   
-        // 1. Проверяем расстояние и удаляем те, что слишком далеко
         if (player != null)
         {
-            // Перебираем список с конца в начало, чтобы безопасно удалять элементы
             for (int i = healthPickups.Count - 1; i >= 0; i--)
             {
                 if (healthPickups[i] != null)
                 {
                     float distance = Vector3.Distance(player.position, healthPickups[i].transform.position);
                     
-                    // Если ты ушел дальше, чем радиус спавна + 10 метров запаса
                     if (distance > spawnRadius + 10f)
                     {
-                        Destroy(healthPickups[i]); // Удаляем объект со сцены
+                        Destroy(healthPickups[i]); 
                     }
                 }
             }
         }
 
-        // Удаляем уничтоженные объекты из списка
         healthPickups.RemoveAll(h => h == null);
 
-        // Спавним недостающие
         int need = maxHealthPickups - healthPickups.Count;
         for (int i = 0; i < need; i++)
         {
@@ -76,9 +71,8 @@ public class HealthSpawner : MonoBehaviour
 
     Vector3 GetRandomSpawnPosition()
     {
-        for (int i = 0; i < 10; i++) // 10 попыток найти позицию
+        for (int i = 0; i < 10; i++)
         {
-            // Генерируем случайное направление и расстояние
             float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
             float distance = Random.Range(minDistanceFromPlayer, spawnRadius);
             
@@ -88,7 +82,6 @@ public class HealthSpawner : MonoBehaviour
                 player.position.z + Mathf.Sin(angle) * distance
             );
 
-            // Пробуем найти точку на NavMesh
             NavMeshHit hit;
             if (NavMesh.SamplePosition(randomPos, out hit, 10f, NavMesh.AllAreas))
             {
@@ -96,7 +89,6 @@ public class HealthSpawner : MonoBehaviour
             }
         }
 
-        // Если NavMesh не найден, спавним без него
         float fallbackAngle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
         float fallbackDist = Random.Range(minDistanceFromPlayer, spawnRadius);
         return new Vector3(

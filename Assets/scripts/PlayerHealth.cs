@@ -42,22 +42,27 @@ public class PlayerHealth : MonoBehaviour
 
     public bool Heal(float amount)
     {
-        // Если игрок мертв или здоровье уже на максимуме — возвращаем false (не лечим)
         if (!isAlive || currentHealth >= maxHealth) 
         {
             return false; 
         }
 
         currentHealth += amount;
-        currentHealth = Mathf.Min(currentHealth, maxHealth); // Ограничиваем максимумом
+        currentHealth = Mathf.Min(currentHealth, maxHealth); 
         
+        PlayerMovement movement = GetComponent<PlayerMovement>();
+        if (movement != null)
+        {
+            movement.LogEvent($"PICKUP: Health Pack (+{amount} HP). Current Health: {currentHealth}/{maxHealth}");
+        }
+
         if (healthSlider != null)
         {
             healthSlider.value = currentHealth;
         }
 
         Debug.Log("Healed! Health: " + currentHealth);
-        return true; // Лечение прошло успешно!
+        return true; 
     }
 
     void Die()

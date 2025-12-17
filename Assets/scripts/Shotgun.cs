@@ -174,6 +174,12 @@ public class Shotgun : MonoBehaviour
     {
         totalAmmo += amount;
         UpdateAmmoUI();
+
+        PlayerMovement movement = GetComponentInParent<PlayerMovement>();
+        if (movement != null)
+        {
+            movement.LogEvent($"PICKUP: Ammo Pack (+{amount} bullets). Total Ammo: {totalAmmo}");
+        }
         Debug.Log("Pobrane naboje: " + amount + ". Razem: " + totalAmmo);
     }
     void PlayEmptySound()

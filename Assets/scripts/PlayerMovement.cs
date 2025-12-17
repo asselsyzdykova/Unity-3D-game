@@ -79,9 +79,6 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition(rb.position + moveDir * moveSpeed * Time.deltaTime);
 
-        // Вращение управляется камерой (FirstPersonCamera), не движением
-        // Убрано автоповорот в направлении движения для FPS
-
         anim.SetFloat("Speed", moveDir.magnitude);
         logTimer += Time.deltaTime;
         if (logTimer >= 5f)

@@ -22,10 +22,10 @@ public class HealthPickup : MonoBehaviour
 
     void Update()
     {
-        // Вращение
+    
         transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
 
-        // Покачивание вверх-вниз
+
         float newY = startPosition.y + Mathf.Sin(Time.time * bobSpeed) * bobHeight;
         transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
@@ -38,7 +38,7 @@ public class HealthPickup : MonoBehaviour
 
             if (playerHealth != null && playerHealth.isAlive)
             {
-                // Пытаемся вылечить и запоминаем результат (успех или нет)
+
                 bool success = playerHealth.Heal(healAmount);
 
                 if (success)
@@ -50,7 +50,7 @@ public class HealthPickup : MonoBehaviour
                         AudioSource.PlayClipAtPoint(pickupSound, transform.position);
                     }
 
-                    Destroy(gameObject); // Удаляем ТОЛЬКО если полечились
+                    Destroy(gameObject); 
                 }
                 else 
                 {
