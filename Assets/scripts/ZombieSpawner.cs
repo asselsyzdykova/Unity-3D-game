@@ -7,6 +7,7 @@ public class ZombieSpawner : MonoBehaviour
     public GameObject zombiePrefab;
     public int maxZombies = 5;
     public float spawnRadius = 20f;
+    public float despawnDistance = 30f;
     public float checkDelay = 1f;
 
     private Transform player;
@@ -21,6 +22,16 @@ public class ZombieSpawner : MonoBehaviour
     void CheckZombies()
     {
         zombies.RemoveAll(z => z == null);
+
+        for (int i = zombies.Count - 1; i >= 0; i--)
+        {
+            float distance = Vector3.Distance(player.position, zombies[i].transform.position);
+            if (distance > despawnDistance)
+            {
+                Destroy(zombies[i]);
+                zombies.RemoveAt(i);
+            }
+        }
 
         int need = maxZombies - zombies.Count;
         for (int i = 0; i < need; i++)
@@ -47,7 +58,7 @@ public class ZombieSpawner : MonoBehaviour
         );
 
         NavMeshHit hit;
-        if (NavMesh.SamplePosition(randomPos, out hit, 5f, NavMesh.AllAreas))
+        if (NavMesh.SamplePosition(randomPos, out hit, 10f, NavMesh.AllAreas))
         {
             return hit.position;
         }
