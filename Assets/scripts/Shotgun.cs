@@ -170,6 +170,12 @@ public class Shotgun : MonoBehaviour
             }
         }
     }
+    public void AddAmmo(int amount)
+    {
+        totalAmmo += amount;
+        UpdateAmmoUI();
+        Debug.Log("Pobrane naboje: " + amount + ". Razem: " + totalAmmo);
+    }
     void PlayEmptySound()
     {
         if (emptySound != null)

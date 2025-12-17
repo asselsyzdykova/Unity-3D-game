@@ -68,3 +68,451 @@
 [16:47:06] Player's record at start: 0
 [16:47:29] --- NEW GAME SESSION STARTED ---
 [16:47:29] Player's record at start: 0
+[17:21:40] --- NEW GAME SESSION STARTED ---
+[17:21:40] Player's record at start: 0
+[17:21:46] Position: (67.72, 0.00, 46.56) | Turn: 337,5237
+[17:21:51] Position: (58.01, 0.00, 47.38) | Turn: 234,5792
+[17:21:52] Zombie killed! Total for the session: 1
+[17:21:56] Position: (60.76, 0.00, 48.13) | Turn: 325,5624
+[17:21:58] Zombie killed! Total for the session: 2
+[17:22:01] Position: (55.60, 0.00, 55.96) | Turn: 1,08835
+[17:22:06] Position: (43.86, 0.00, 65.18) | Turn: 0,1569107
+[17:22:11] Position: (37.09, 1.08, 75.04) | Turn: 84,68001
+[17:22:16] Position: (34.19, 2.25, 80.09) | Turn: 193,2941
+[17:22:18] Zombie killed! Total for the session: 3
+[17:22:21] Position: (31.69, 0.58, 76.93) | Turn: 326,7463
+[17:22:23] Player jumped
+[17:22:26] Position: (35.43, 2.12, 78.44) | Turn: 235,8933
+[17:22:31] Player jumped
+[17:22:32] Position: (39.46, 0.30, 63.87) | Turn: 75,26
+[17:22:37] Position: (37.39, 0.04, 66.35) | Turn: 115,1321
+[17:22:42] Position: (35.48, 0.05, 65.08) | Turn: 27,37913
+[17:22:46] --- NEW GAME SESSION STARTED ---
+[17:22:46] Player's record at start: 0
+[17:22:51] Position: (72.99, 0.00, 52.96) | Turn: 18,17268
+[17:22:52] Zombie killed! Total for the session: 1
+[17:22:56] Position: (66.41, 0.00, 47.68) | Turn: 292,2079
+[17:23:00] Zombie killed! Total for the session: 2
+[17:23:01] Position: (55.40, 0.00, 49.85) | Turn: 339,334
+[17:23:06] Position: (37.72, 0.00, 67.05) | Turn: 28,52844
+[17:23:11] Position: (19.50, 0.00, 81.61) | Turn: 358,583
+[17:23:16] Position: (15.11, 0.00, 84.57) | Turn: 69,47086
+[17:23:21] Zombie killed! Total for the session: 3
+[17:23:21] Position: (17.28, 0.00, 88.87) | Turn: 329,7729
+[17:23:26] Position: (20.69, 0.06, 86.39) | Turn: 232,7148
+[17:23:31] Position: (15.30, 0.00, 86.52) | Turn: 330,0378
+[17:23:36] Position: (21.44, 0.11, 86.60) | Turn: 204,9362
+[17:23:41] Position: (13.73, 0.00, 68.75) | Turn: 238,1401
+[17:23:46] Position: (20.51, 0.00, 50.71) | Turn: 164,6149
+[17:23:51] Position: (29.61, 0.00, 48.00) | Turn: 263,6435
+[17:23:56] Position: (31.45, 0.00, 46.78) | Turn: 171,6635
+[17:37:59] --- NEW GAME SESSION STARTED ---
+[17:37:59] Player's record at start: 0
+[17:38:05] Position: (68.14, 0.00, 51.32) | Turn: 114,4677
+[17:38:10] Position: (70.16, 0.00, 52.69) | Turn: 106,8231
+[17:38:15] Position: (75.09, 0.00, 47.96) | Turn: 198,4027
+[17:38:20] Position: (77.00, 0.00, 47.67) | Turn: 46,82951
+[17:38:25] Position: (79.54, 0.00, 50.79) | Turn: 3,250421
+[17:38:46] --- NEW GAME SESSION STARTED ---
+[17:38:46] Player's record at start: 0
+[17:38:52] Position: (72.70, 0.00, 53.99) | Turn: 124,8894
+[17:38:57] Position: (77.02, 0.00, 48.02) | Turn: 104,0016
+[17:39:02] Position: (74.78, 0.00, 47.50) | Turn: 140,189
+[17:44:27] --- NEW GAME SESSION STARTED ---
+[17:44:27] Player's record at start: 0
+[17:44:33] Position: (72.84, 0.00, 53.19) | Turn: 47,62587
+[17:44:38] Position: (75.87, 0.00, 52.40) | Turn: 154,4174
+[17:44:43] Position: (74.01, 0.00, 54.56) | Turn: 72,78495
+[17:44:48] Position: (72.93, 0.00, 57.32) | Turn: 277,8665
+[17:44:53] Position: (73.77, 0.00, 46.44) | Turn: 254,7204
+[17:46:35] --- NEW GAME SESSION STARTED ---
+[17:46:35] Player's record at start: 0
+[17:49:04] --- NEW GAME SESSION STARTED ---
+[17:49:04] Player's record at start: 0
+[17:55:17] --- NEW GAME SESSION STARTED ---
+[17:55:17] Player's record at start: 0
+[17:55:24] Position: (66.21, 0.00, 58.42) | Turn: 342,3254
+[17:55:31] Position: (63.85, 0.00, 58.24) | Turn: 230,7643
+[17:55:36] Position: (63.85, 0.00, 58.24) | Turn: 231,5431
+[17:55:41] Position: (63.85, 0.00, 58.24) | Turn: 231,5444
+[17:55:46] Position: (63.85, 0.00, 58.24) | Turn: 231,5474
+[17:55:57] --- NEW GAME SESSION STARTED ---
+[17:55:57] Player's record at start: 0
+[17:56:03] Position: (66.98, 0.00, 54.86) | Turn: 321,0306
+[17:56:08] Position: (78.80, 0.00, 51.96) | Turn: 172,5565
+[17:56:15] Position: (77.32, 0.00, 51.92) | Turn: 140,7578
+[17:56:20] Position: (84.12, 0.00, 44.54) | Turn: 175,9583
+[17:56:25] Position: (82.17, 0.00, 49.85) | Turn: 325,4954
+[17:56:30] Position: (71.27, 0.00, 35.66) | Turn: 259,7579
+[17:56:35] Position: (70.10, 0.00, 18.24) | Turn: 239,3224
+[17:56:40] Position: (53.21, 0.00, 14.66) | Turn: 14,63359
+[17:56:45] Position: (32.72, 0.00, 17.18) | Turn: 225,9517
+[17:56:46] Zombie killed! Total for the session: 1
+[17:56:50] Position: (27.84, 0.00, 29.84) | Turn: 22,0463
+[17:56:55] Position: (13.02, 0.00, 40.81) | Turn: 265,6932
+[17:57:00] Position: (22.99, 0.00, 19.78) | Turn: 167,0126
+[17:57:05] Position: (41.80, 0.00, 27.84) | Turn: 126,2895
+[17:57:10] Position: (60.86, 0.00, 34.91) | Turn: 28,40839
+[17:57:15] Position: (72.91, 0.00, 54.83) | Turn: 71,96804
+[17:57:17] Zombie killed! Total for the session: 2
+[17:57:20] Position: (76.03, 0.03, 54.10) | Turn: 168,327
+[17:57:25] Position: (85.98, 0.00, 57.44) | Turn: 332,9917
+[17:57:30] Position: (87.40, 0.01, 69.34) | Turn: 151,4176
+[17:57:35] Position: (103.22, 0.00, 59.77) | Turn: 103,1993
+[17:57:40] Position: (113.79, 0.00, 46.83) | Turn: 191,624
+[17:57:45] Position: (123.36, 0.01, 33.05) | Turn: 330,1727
+[17:57:51] Position: (123.35, 0.01, 33.03) | Turn: 129,1476
+[17:57:58] Position: (126.87, 0.27, 30.25) | Turn: 123,937
+[17:58:05] Position: (126.48, 0.13, 29.76) | Turn: 109,4342
+[17:58:10] Position: (129.47, 0.80, 26.44) | Turn: 8,840887
+[18:02:33] --- NEW GAME SESSION STARTED ---
+[18:02:33] Player's record at start: 0
+[18:02:39] Position: (67.95, 0.00, 52.91) | Turn: 171,7316
+[18:02:44] Position: (79.49, 0.00, 49.14) | Turn: 153,4235
+[18:02:49] Position: (82.57, 0.00, 46.96) | Turn: 292,9852
+[18:02:52] Zombie killed! Total for the session: 1
+[18:02:54] Position: (77.04, 0.00, 44.41) | Turn: 306,6814
+[18:02:54] Zombie killed! Total for the session: 2
+[18:02:59] Position: (86.62, 0.00, 43.93) | Turn: 129,7394
+[18:03:04] Position: (78.43, 0.00, 43.72) | Turn: 339,9103
+[18:03:09] Position: (83.29, 0.00, 42.76) | Turn: 335,407
+[18:03:13] Zombie killed! Total for the session: 3
+[18:03:14] Position: (84.66, 0.00, 44.75) | Turn: 279,8007
+[18:03:19] Position: (92.38, 0.00, 37.21) | Turn: 155,8311
+[18:03:24] Position: (95.97, 0.00, 33.62) | Turn: 70,98137
+[18:03:29] Position: (91.70, 0.00, 47.60) | Turn: 61,80266
+[18:03:34] Position: (89.68, 0.00, 39.92) | Turn: 296,8727
+[18:03:39] Position: (96.62, 0.00, 35.05) | Turn: 350,7035
+[18:03:44] Position: (109.00, 0.00, 39.63) | Turn: 181,3467
+[18:03:49] Position: (124.07, 0.01, 24.61) | Turn: 197,673
+[18:03:54] Position: (126.15, 0.00, 14.87) | Turn: 264,1729
+[18:03:59] Position: (131.44, 1.82, 32.50) | Turn: 128,0685
+[18:04:04] Position: (138.96, 0.40, 53.65) | Turn: 144,4179
+[18:04:09] Position: (148.93, 0.00, 66.36) | Turn: 179,468
+[18:04:14] Position: (156.12, 0.01, 76.92) | Turn: 57,93979
+[18:04:20] Position: (155.83, 0.01, 80.14) | Turn: 259,5207
+[18:04:25] Position: (155.60, 0.00, 80.08) | Turn: 16,2586
+[18:04:30] Position: (168.15, 0.01, 86.45) | Turn: 209,2025
+[18:04:35] Position: (156.61, 0.00, 66.77) | Turn: 273,3776
+[18:06:54] --- NEW GAME SESSION STARTED ---
+[18:06:54] Player's record at start: 0
+[18:07:00] Position: (75.98, 0.00, 47.45) | Turn: 116,0119
+[18:07:05] Position: (76.70, 0.66, 47.98) | Turn: 126,6615
+[18:07:10] Position: (75.48, 0.00, 48.72) | Turn: 209,3018
+[18:07:15] Position: (76.46, 0.00, 45.56) | Turn: 89,08253
+[18:07:20] Position: (76.75, 0.00, 46.00) | Turn: 242,3663
+[18:07:24] Zombie killed! Total for the session: 1
+[18:07:25] Position: (71.94, 0.00, 40.42) | Turn: 290,4556
+[18:07:30] Position: (61.53, 0.00, 42.53) | Turn: 256,9177
+[18:07:35] Position: (75.00, 0.00, 40.87) | Turn: 117,0913
+[18:07:40] Position: (89.63, 0.00, 51.19) | Turn: 123,3042
+[18:07:45] Position: (88.85, 0.00, 63.53) | Turn: 355,5043
+[18:07:50] Position: (90.67, 0.75, 79.39) | Turn: 19,4107
+[18:10:23] --- NEW GAME SESSION STARTED ---
+[18:10:23] Player's record at start: 0
+[18:10:29] Position: (70.82, 0.00, 53.34) | Turn: 107,7515
+[18:10:34] Position: (79.39, 0.00, 50.92) | Turn: 245,9534
+[18:10:39] Position: (74.89, 0.00, 41.36) | Turn: 227,0373
+[18:10:44] Position: (70.84, 0.00, 29.02) | Turn: 328,4368
+[18:10:49] Position: (61.53, 0.00, 44.65) | Turn: 70,44631
+[18:10:54] Position: (74.19, 0.00, 47.48) | Turn: 182,7101
+[18:10:59] Position: (82.89, 0.00, 55.32) | Turn: 181,5542
+[18:11:04] Position: (81.62, 0.00, 42.56) | Turn: 213,7146
+[18:11:09] Position: (81.37, 0.00, 36.55) | Turn: 31,01453
+[18:11:14] Position: (83.07, 0.00, 41.12) | Turn: 339,6039
+[18:11:19] Position: (76.78, 0.00, 33.53) | Turn: 314,8123
+[18:11:24] Position: (76.38, 0.00, 41.98) | Turn: 116,286
+[18:11:29] Position: (81.83, 0.00, 45.03) | Turn: 150,7384
+[18:11:34] Zombie killed! Total for the session: 1
+[18:11:34] Position: (85.56, 0.00, 44.46) | Turn: 318,6682
+[18:11:35] Zombie killed! Total for the session: 2
+[18:11:36] Zombie killed! Total for the session: 3
+[18:11:39] Position: (87.98, 0.00, 44.69) | Turn: 337,8667
+[18:11:44] Position: (79.56, 0.00, 32.24) | Turn: 259,926
+[18:11:49] Position: (94.84, 0.00, 38.21) | Turn: 85,03872
+[18:11:54] Position: (99.40, 0.00, 48.30) | Turn: 121,6805
+[18:11:59] Position: (110.99, 1.37, 42.18) | Turn: 18,27477
+[18:12:04] Position: (113.46, 0.00, 37.09) | Turn: 197,601
+[18:12:09] Position: (97.15, 0.01, 33.57) | Turn: 342,3948
+[18:12:14] Position: (76.96, 0.01, 33.35) | Turn: 14,22907
+[18:12:20] Position: (73.36, 0.01, 31.46) | Turn: 12,13193
+[18:12:25] Position: (73.44, 0.02, 31.37) | Turn: 52,26569
+[18:12:30] Position: (72.47, 0.02, 30.47) | Turn: 230,6603
+[18:12:35] Position: (62.79, 0.02, 25.79) | Turn: 266,8903
+[18:12:40] Position: (58.40, 0.02, 23.19) | Turn: 284,0467
+[18:12:45] Position: (58.27, 0.03, 22.33) | Turn: 149,0121
+[18:12:50] Position: (57.57, 0.03, 22.10) | Turn: 131,4784
+[18:12:56] Position: (56.89, 0.02, 22.71) | Turn: 270,4453
+[18:13:01] Position: (56.44, 0.04, 23.28) | Turn: 100,3516
+[18:13:06] Position: (55.98, 0.03, 23.70) | Turn: 268,4863
+[18:13:11] Position: (55.67, 0.04, 24.05) | Turn: 173,3669
+[18:13:16] Position: (71.52, 0.05, 17.89) | Turn: 235,5566
+[18:19:30] --- NEW GAME SESSION STARTED ---
+[18:19:30] Player's record at start: 0
+[18:19:36] Position: (62.85, 0.00, 50.81) | Turn: 209,6009
+[18:19:41] Position: (61.48, 0.00, 50.31) | Turn: 77,64134
+[18:19:46] Position: (60.51, 0.00, 54.77) | Turn: 312,9012
+[18:19:51] Position: (57.41, 0.00, 48.01) | Turn: 300,6859
+[18:19:56] Position: (58.37, 0.00, 45.50) | Turn: 90,99116
+[18:19:58] Zombie killed! Total for the session: 1
+[18:20:00] Zombie killed! Total for the session: 2
+[18:20:01] Position: (57.54, 0.00, 43.72) | Turn: 81,24151
+[18:20:06] Position: (66.08, 0.00, 50.10) | Turn: 39,37432
+[18:20:11] Zombie killed! Total for the session: 3
+[18:20:11] Position: (69.21, 0.00, 50.89) | Turn: 324,0712
+[18:20:16] Position: (72.00, 0.00, 48.22) | Turn: 151,4269
+[18:20:21] Position: (78.79, 0.00, 48.59) | Turn: 305,443
+[18:20:24] Zombie killed! Total for the session: 4
+[18:20:26] Position: (77.23, 0.00, 48.90) | Turn: 325,6877
+[18:20:31] Position: (76.51, 0.00, 45.94) | Turn: 2,086497
+[18:20:36] Position: (79.32, 0.00, 43.84) | Turn: 350,7035
+[18:20:40] Zombie killed! Total for the session: 5
+[18:20:40] Zombie killed! Total for the session: 6
+[18:20:41] Position: (77.77, 0.00, 47.63) | Turn: 237,7771
+[18:20:46] Position: (70.05, 0.00, 50.81) | Turn: 3,045177
+[18:20:51] Position: (68.51, 0.00, 54.19) | Turn: 47,48725
+[18:20:56] Position: (62.96, 0.00, 58.08) | Turn: 218,6317
+[18:21:01] Position: (63.25, 0.00, 48.10) | Turn: 233,452
+[18:21:06] Position: (57.37, 0.00, 44.95) | Turn: 118,552
+[18:21:10] Zombie killed! Total for the session: 7
+[18:21:11] Position: (57.96, 0.00, 45.01) | Turn: 118,3651
+[18:21:12] Zombie killed! Total for the session: 8
+[18:21:12] !!! NEW KILL RECORD: 8 !!!
+[18:21:16] Position: (63.25, 0.00, 44.82) | Turn: 127,115
+[18:21:24] --- NEW GAME SESSION STARTED ---
+[18:21:24] Player's record at start: 0
+[18:21:28] Position: (67.45, 0.00, 52.84) | Turn: 160,9358
+[18:21:33] Position: (78.37, -0.07, 53.27) | Turn: 67,38445
+[18:21:38] Position: (84.10, 0.00, 49.38) | Turn: 312,4366
+[18:21:40] Zombie killed! Total for the session: 1
+[18:21:43] Position: (74.40, 0.00, 46.39) | Turn: 277,4238
+[18:22:02] --- NEW GAME SESSION STARTED ---
+[18:22:02] Player's record at start: 0
+[18:22:08] Position: (67.58, 0.00, 54.20) | Turn: 231,2187
+[18:22:13] Position: (62.63, 0.01, 58.25) | Turn: 58,40864
+[18:22:15] Zombie killed! Total for the session: 1
+[18:22:18] Position: (62.45, 0.01, 58.21) | Turn: 172,915
+[18:22:22] Player jumped
+[18:22:23] Position: (64.04, 0.01, 51.93) | Turn: 287,423
+[18:22:28] Position: (61.06, 0.01, 53.34) | Turn: 294,2897
+[18:22:31] Player jumped
+[18:22:33] Position: (39.49, 0.01, 45.16) | Turn: 321,7742
+[18:22:38] Position: (22.38, 0.02, 48.07) | Turn: 205,1068
+[18:22:38] Player jumped
+[18:22:43] Player jumped
+[18:22:43] Position: (18.69, 0.11, 51.38) | Turn: 19,57552
+[18:22:48] Position: (14.91, 0.02, 54.60) | Turn: 164,4912
+[18:22:50] Zombie killed! Total for the session: 2
+[18:22:53] Position: (12.88, 0.02, 54.37) | Turn: 344,7874
+[18:22:57] Zombie killed! Total for the session: 3
+[18:22:58] Position: (13.87, 0.02, 51.72) | Turn: 75,52998
+[18:23:03] Position: (16.27, 0.02, 63.80) | Turn: 60,18034
+[18:23:08] Position: (20.83, 0.06, 85.77) | Turn: 47,69775
+[18:23:13] Position: (19.77, 0.08, 89.63) | Turn: 309,2452
+[18:23:14] Player jumped
+[18:23:18] Position: (18.29, 0.03, 87.25) | Turn: 155,5454
+[18:24:43] --- NEW GAME SESSION STARTED ---
+[18:24:43] Player's record at start: 0
+[18:24:50] Position: (71.61, 0.00, 54.35) | Turn: 96,42096
+[18:24:55] Position: (76.96, 0.00, 47.89) | Turn: 248,4035
+[18:25:08] --- NEW GAME SESSION STARTED ---
+[18:25:08] Player's record at start: 0
+[18:25:14] Position: (76.80, 0.00, 48.25) | Turn: 159,3661
+[18:25:19] Position: (72.29, 0.00, 48.41) | Turn: 61,85888
+[18:25:24] Position: (73.05, 0.00, 48.22) | Turn: 182,1862
+[18:25:29] Position: (70.49, 0.00, 48.85) | Turn: 4,801588
+[18:25:34] Position: (56.24, 0.00, 49.73) | Turn: 30,29728
+[18:25:39] Position: (50.94, 0.00, 56.10) | Turn: 132,8909
+[18:25:44] Position: (50.94, 0.00, 56.10) | Turn: 311,3268
+[18:25:49] Position: (53.59, 0.00, 53.51) | Turn: 179,0551
+[18:25:54] Position: (49.05, 0.00, 49.74) | Turn: 288,7792
+[18:28:16] --- NEW GAME SESSION STARTED ---
+[18:28:16] Player's record at start: 0
+[18:28:22] Zombie killed! Total for the session: 1
+[18:28:23] Position: (70.73, 0.00, 53.39) | Turn: 71,51515
+[18:28:26] Player jumped
+[18:28:27] Player jumped
+[18:28:28] Position: (64.21, 1.18, 61.21) | Turn: 26,88851
+[18:28:30] Player jumped
+[18:28:33] Position: (73.67, 0.33, 69.09) | Turn: 134,062
+[18:28:36] Player jumped
+[18:28:38] Position: (94.39, 0.33, 80.44) | Turn: 104,1633
+[18:28:43] Position: (102.84, 0.62, 99.96) | Turn: 105,7715
+[18:28:48] Position: (101.67, 1.97, 112.66) | Turn: 164,4874
+[18:28:53] Position: (101.31, 0.39, 96.04) | Turn: 189,8765
+[18:28:58] Position: (104.44, 0.00, 73.51) | Turn: 225,6155
+[18:29:03] Position: (103.00, 0.00, 57.58) | Turn: 281,6454
+[18:29:03] Player jumped
+[18:29:05] Player jumped
+[18:29:06] Player jumped
+[18:29:07] Player jumped
+[18:29:08] Position: (92.20, 0.00, 35.73) | Turn: 272,2549
+[18:29:11] Player jumped
+[18:29:13] Position: (81.97, 0.00, 13.10) | Turn: 258,7373
+[18:29:18] Position: (81.17, 0.00, 14.15) | Turn: 275,2238
+[18:29:18] Player jumped
+[18:29:22] Zombie killed! Total for the session: 2
+[18:29:23] Position: (78.54, 0.00, 16.83) | Turn: 17,46853
+[18:29:28] Position: (60.98, 0.00, 32.69) | Turn: 46,77405
+[18:31:53] --- NEW GAME SESSION STARTED ---
+[18:31:53] Player's record at start: 0
+[18:34:10] --- NEW GAME SESSION STARTED ---
+[18:34:10] Player's record at start: 0
+[18:34:16] Position: (71.29, 0.00, 52.80) | Turn: 88,00284
+[18:34:21] Position: (75.29, 0.00, 47.52) | Turn: 109,6031
+[18:34:26] Position: (75.66, 0.12, 47.90) | Turn: 31,21038
+[18:35:18] --- NEW GAME SESSION STARTED ---
+[18:35:18] Player's record at start: 0
+[18:35:24] Position: (74.97, 0.00, 47.36) | Turn: 97,54116
+[18:35:29] Position: (75.07, 0.00, 50.43) | Turn: 53,11113
+[18:35:34] Zombie killed! Total for the session: 1
+[18:35:34] Position: (79.01, 0.00, 48.84) | Turn: 328,5544
+[18:35:39] Position: (68.55, 0.00, 50.56) | Turn: 344,1465
+[18:35:44] Position: (61.80, 0.00, 43.61) | Turn: 239,6215
+[18:35:49] Position: (53.28, 0.00, 50.90) | Turn: 25,18184
+[18:35:53] Zombie killed! Total for the session: 2
+[18:35:54] Position: (59.30, 0.00, 52.08) | Turn: 119,8834
+[18:35:59] Position: (79.82, 0.00, 49.61) | Turn: 113,7079
+[18:36:04] Position: (72.53, 0.00, 56.33) | Turn: 58,80203
+[18:36:09] Position: (73.44, 0.00, 55.84) | Turn: 33,42003
+[18:36:14] Position: (72.89, 0.00, 60.16) | Turn: 49,18202
+[18:38:06] --- NEW GAME SESSION STARTED ---
+[18:38:06] Player's record at start: 0
+[18:38:12] Position: (63.41, 0.00, 54.85) | Turn: 286,7719
+[18:38:17] Position: (65.53, 0.00, 55.33) | Turn: 328,4277
+[18:38:22] Position: (53.32, 0.00, 51.63) | Turn: 274,1298
+[19:29:00] --- NEW GAME SESSION STARTED ---
+[19:29:00] Player's record at start: 0
+[19:29:07] Position: (68.84, 0.00, 55.26) | Turn: 136,274
+[19:29:08] Zombie killed! Total for the session: 1
+[19:29:12] Position: (72.39, 0.00, 55.17) | Turn: 89,40911
+[19:29:17] Position: (69.61, 0.00, 55.16) | Turn: 332,078
+[19:29:22] Position: (73.11, 0.00, 53.01) | Turn: 49,78174
+[19:29:22] Zombie killed! Total for the session: 2
+[19:29:27] Position: (66.60, 0.00, 46.52) | Turn: 286,6973
+[19:29:32] Position: (66.95, 0.00, 36.19) | Turn: 154,0182
+[19:29:37] Position: (79.03, 0.00, 49.74) | Turn: 278,4403
+[19:29:42] Position: (77.34, 0.00, 48.76) | Turn: 308,136
+[19:29:45] --- NEW GAME SESSION STARTED ---
+[19:29:45] Player's record at start: 0
+[19:29:49] Position: (73.33, 0.00, 59.37) | Turn: 79,91532
+[19:29:54] Position: (73.80, 0.00, 60.11) | Turn: 215,9746
+[19:29:59] Position: (76.23, 0.00, 48.36) | Turn: 84,10725
+[19:35:45] --- NEW GAME SESSION STARTED ---
+[19:35:45] Player's record at start: 0
+[19:35:51] Position: (70.57, 0.00, 52.73) | Turn: 327,1984
+[19:55:39] --- NEW GAME SESSION STARTED ---
+[19:55:39] Player's record at start: 0
+[19:58:24] --- NEW GAME SESSION STARTED ---
+[19:58:24] Player's record at start: 0
+[19:58:31] Position: (66.64, 0.00, 53.28) | Turn: 1,859373
+[19:58:36] Position: (50.07, 0.00, 46.48) | Turn: 326,9893
+[19:58:41] Position: (55.91, 0.00, 48.86) | Turn: 69,56185
+[19:58:46] Position: (56.78, 0.00, 53.08) | Turn: 237,5819
+[19:58:51] Position: (65.02, 0.00, 45.99) | Turn: 103,0981
+[19:58:56] Position: (76.23, 0.04, 67.41) | Turn: 72,2979
+[19:59:02] Position: (72.68, 0.00, 58.95) | Turn: 257,6551
+[19:59:07] Position: (72.68, 0.00, 58.95) | Turn: 97,43053
+[19:59:12] Position: (86.27, 0.00, 57.34) | Turn: 155,2026
+[19:59:17] Position: (96.35, 0.00, 67.84) | Turn: 323,6907
+[19:59:22] Position: (89.15, 0.00, 55.02) | Turn: 213,1695
+[19:59:27] Position: (103.07, 0.00, 64.16) | Turn: 181,4087
+[19:59:38] --- NEW GAME SESSION STARTED ---
+[19:59:38] Player's record at start: 0
+[19:59:44] Position: (70.26, 0.00, 63.25) | Turn: 25,40821
+[19:59:49] Position: (55.33, 0.00, 55.56) | Turn: 269,9838
+[19:59:54] Position: (59.69, 0.00, 43.70) | Turn: 70,16372
+[20:00:00] Position: (74.53, 0.00, 54.55) | Turn: 151,1023
+[20:00:05] Position: (60.20, 0.00, 51.25) | Turn: 258,6203
+[20:00:10] Position: (60.15, 0.00, 51.11) | Turn: 253,8444
+[20:00:15] Position: (61.87, 0.00, 60.03) | Turn: 137,9202
+[20:00:20] Position: (59.59, 0.00, 38.74) | Turn: 251,4554
+[20:00:25] Position: (56.43, 0.00, 26.63) | Turn: 132,8184
+[20:00:30] Position: (66.22, 0.00, 42.21) | Turn: 52,70005
+[20:00:35] Position: (83.03, 0.00, 38.37) | Turn: 215,3345
+[20:00:41] Position: (84.58, 0.00, 34.35) | Turn: 213,8304
+[20:00:46] Position: (84.58, 0.00, 34.35) | Turn: 64,1238
+[20:00:51] Position: (83.69, 0.00, 40.53) | Turn: 89,40388
+[20:00:56] Position: (84.88, 0.00, 43.89) | Turn: 323,525
+[20:05:45] --- NEW GAME SESSION STARTED ---
+[20:05:45] Player's record at start: 0
+[20:05:52] Position: (62.30, 0.00, 59.35) | Turn: 317,6934
+[20:05:57] Position: (53.69, 0.00, 50.52) | Turn: 193,2397
+[20:06:02] Position: (63.40, 0.00, 50.89) | Turn: 58,42552
+[20:06:03] Zombie killed! Total for the session: 1
+[20:06:07] Position: (66.10, 0.00, 53.99) | Turn: 150,4067
+[20:06:12] Position: (73.30, 0.00, 54.56) | Turn: 84,78461
+[20:06:17] Position: (79.46, 0.00, 51.52) | Turn: 176,0508
+[20:06:22] Position: (76.86, 0.00, 43.63) | Turn: 296,6416
+[20:06:27] Position: (74.06, 0.00, 41.62) | Turn: 79,59903
+[20:06:32] Position: (75.20, 0.03, 54.82) | Turn: 14,05445
+[20:06:37] Position: (59.10, 0.00, 66.76) | Turn: 12,24372
+[20:06:42] Position: (55.70, 0.00, 53.80) | Turn: 107,5254
+[20:06:47] Zombie killed! Total for the session: 2
+[20:06:47] Position: (64.16, 0.00, 59.01) | Turn: 195,1075
+[20:06:47] Zombie killed! Total for the session: 3
+[20:06:52] Position: (65.64, 0.00, 57.45) | Turn: 199,0065
+[20:06:57] Zombie killed! Total for the session: 4
+[20:06:57] Position: (61.53, 0.00, 59.71) | Turn: 160,6832
+[20:06:58] Zombie killed! Total for the session: 5
+[20:07:02] Position: (61.53, 0.00, 59.71) | Turn: 170,6416
+[20:07:05] Zombie killed! Total for the session: 6
+[20:07:07] Position: (63.87, 0.00, 57.58) | Turn: 21,64874
+[20:07:07] Zombie killed! Total for the session: 7
+[20:07:12] Position: (68.74, 0.00, 50.56) | Turn: 357,6412
+[20:07:17] Position: (72.89, 0.00, 48.45) | Turn: 148,0555
+[20:07:22] Position: (82.86, 0.00, 44.56) | Turn: 200,8235
+[20:07:27] Position: (92.63, 0.00, 34.61) | Turn: 155,2651
+[20:07:32] Position: (108.57, 0.00, 46.50) | Turn: 177,853
+[20:07:37] Position: (125.96, 0.00, 48.74) | Turn: 126,1304
+[20:07:42] Position: (122.58, 0.00, 64.74) | Turn: 3,043453
+[20:07:42] Player jumped
+[20:07:44] Player jumped
+[20:07:45] Player jumped
+[20:07:46] Player jumped
+[20:07:47] Position: (103.66, 0.00, 74.28) | Turn: 319,8566
+[20:07:47] Player jumped
+[20:07:52] Position: (83.03, 0.33, 71.55) | Turn: 62,91237
+[20:07:54] Player jumped
+[20:07:57] Position: (90.19, 2.42, 85.53) | Turn: 129,2487
+[20:08:02] Position: (104.57, 0.00, 86.03) | Turn: 225,9744
+[20:08:07] Position: (92.67, 0.00, 69.70) | Turn: 285,326
+[20:08:12] Position: (87.98, 0.00, 54.72) | Turn: 243,8401
+[20:08:17] Position: (78.12, 0.00, 52.74) | Turn: 22,91867
+[20:08:22] Position: (65.30, 0.36, 63.46) | Turn: 89,82145
+[20:08:27] Position: (74.94, 0.13, 67.97) | Turn: 178,0828
+[20:08:31] Zombie killed! Total for the session: 8
+[20:08:32] Position: (82.01, 0.00, 64.14) | Turn: 345,9722
+[20:08:37] Position: (69.01, 0.00, 57.49) | Turn: 302,9821
+[20:08:40] Player jumped
+[20:08:42] Player jumped
+[20:08:42] Position: (49.78, 1.22, 61.38) | Turn: 45,53833
+[20:08:43] Player jumped
+[20:08:44] Player jumped
+[20:08:45] Player jumped
+[20:08:46] Player jumped
+[20:08:47] Position: (45.72, 0.36, 57.26) | Turn: 286,3939
+[20:08:52] Position: (39.25, 0.00, 43.94) | Turn: 244,1969
+[20:08:57] Position: (54.41, 0.00, 31.45) | Turn: 203,7908
+[20:09:02] Position: (67.25, 0.00, 43.42) | Turn: 224,994
+[20:09:07] Position: (83.78, 0.00, 45.01) | Turn: 96,415
+[20:09:16] --- NEW GAME SESSION STARTED ---
+[20:09:16] Player's record at start: 0
+[20:09:21] Position: (57.39, 0.00, 64.39) | Turn: 45,01524
+[20:09:23] Zombie killed! Total for the session: 1
+[20:09:26] Position: (60.82, 0.13, 68.94) | Turn: 144,9586
+[20:09:29] Player jumped
+[20:09:30] Player jumped
+[20:09:31] Position: (67.11, 1.22, 55.68) | Turn: 164,9151
+[20:09:32] Player jumped
+[20:09:34] Player jumped
+[20:09:36] Position: (61.04, 0.00, 51.04) | Turn: 326,616
+[20:09:39] Player jumped
+[20:09:41] Position: (52.77, 0.00, 50.38) | Turn: 23,61423
+[20:09:44] Zombie killed! Total for the session: 2
+[20:09:46] Position: (57.36, 0.00, 49.07) | Turn: 153,4901
+[20:09:48] Zombie killed! Total for the session: 3
+[20:09:51] Position: (63.04, 0.00, 58.39) | Turn: 246,7021
+[20:09:56] Position: (67.20, -0.01, 65.81) | Turn: 109,1656
+[20:10:01] Position: (76.64, 0.50, 70.34) | Turn: 332,1056
+[20:10:06] Position: (82.81, 0.00, 50.36) | Turn: 291,7928

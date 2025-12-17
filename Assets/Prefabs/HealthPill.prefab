@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2397929899523173244}
   - component: {fileID: 2393542668286642381}
   - component: {fileID: 714991632892831056}
-  - component: {fileID: 742268603127529976}
   - component: {fileID: 5304053101084519159}
   m_Layer: 0
   m_Name: HealthPill
@@ -31,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 262.68, y: 3.19, z: 266.065}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -107,34 +106,13 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &742268603127529976
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4912202968677518800}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5304053101084519159
 MonoBehaviour:
@@ -148,8 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d37cf700f3881884e9a43d8dde7884c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthPickup
-  healAmount: 50
+  healAmount: 200
   rotationSpeed: 90
   bobSpeed: 2
   bobHeight: 0.3
-  pickupSound: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 8a82c0995b8807e4aba2cee3fc2ca88e, type: 3}

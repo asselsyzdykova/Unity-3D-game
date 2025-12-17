@@ -38,16 +38,24 @@ public class HealthPickup : MonoBehaviour
 
             if (playerHealth != null && playerHealth.isAlive)
             {
-                playerHealth.Heal(healAmount);
-                Debug.Log("Подобрано сердечко! +" + healAmount + " HP");
+                // Пытаемся вылечить и запоминаем результат (успех или нет)
+                bool success = playerHealth.Heal(healAmount);
 
-                // Проиграть звук
-                if (pickupSound != null)
+                if (success)
                 {
-                    AudioSource.PlayClipAtPoint(pickupSound, transform.position);
-                }
+                    Debug.Log("The heart has been selected! +" + healAmount + " HP");
 
-                Destroy(gameObject);
+                    if (pickupSound != null)
+                    {
+                        AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+                    }
+
+                    Destroy(gameObject); // Удаляем ТОЛЬКО если полечились
+                }
+                else 
+                {
+                    Debug.Log("Health is full! Heart remains on the ground.");
+                }
             }
         }
     }

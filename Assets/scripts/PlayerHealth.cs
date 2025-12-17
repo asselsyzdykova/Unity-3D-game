@@ -40,18 +40,24 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void Heal(float amount)
+    public bool Heal(float amount)
     {
-        if (!isAlive) return;
+        // Если игрок мертв или здоровье уже на максимуме — возвращаем false (не лечим)
+        if (!isAlive || currentHealth >= maxHealth) 
+        {
+            return false; 
+        }
 
         currentHealth += amount;
-        currentHealth = Mathf.Min(currentHealth, maxHealth); // Не больше максимума
-        Debug.Log("Healed! Health: " + currentHealth);
-
+        currentHealth = Mathf.Min(currentHealth, maxHealth); // Ограничиваем максимумом
+        
         if (healthSlider != null)
         {
             healthSlider.value = currentHealth;
         }
+
+        Debug.Log("Healed! Health: " + currentHealth);
+        return true; // Лечение прошло успешно!
     }
 
     void Die()

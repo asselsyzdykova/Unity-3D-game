@@ -1,0 +1,46 @@
+using UnityEngine;
+
+public class AmmoPickup : MonoBehaviour
+{
+    [Header("Ammo Settings")]
+    public int ammoAmount = 20; 
+
+    [Header("Visual Effects")]
+    public float rotationSpeed = 90f;
+    public float bobSpeed = 2f;
+    public float bobHeight = 0.3f;
+
+    [Header("Audio")]
+    public AudioClip pickupSound;
+
+    private Vector3 startPosition;
+
+    void Start() { startPosition = transform.position; }
+
+    void Update()
+    {
+        transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        float newY = startPosition.y + Mathf.Sin(Time.time * bobSpeed) * bobHeight;
+        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Shotgun shotgun = other.GetComponentInChildren<Shotgun>();
+
+            if (shotgun != null)
+            {
+                shotgun.AddAmmo(ammoAmount);
+                
+                if (pickupSound != null)
+                {
+                    AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+                }
+
+                Destroy(gameObject);
+            }
+        }
+    }
+}

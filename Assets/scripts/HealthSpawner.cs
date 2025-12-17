@@ -51,7 +51,7 @@ public class HealthSpawner : MonoBehaviour
         {
             GameObject health = Instantiate(healthPrefab, spawnPos, Quaternion.identity);
             healthPickups.Add(health);
-            Debug.Log("Заспавнено сердечко на позиции: " + spawnPos);
+            Debug.Log("The heart has been spawned at the position: " + spawnPos);
         }
     }
 
