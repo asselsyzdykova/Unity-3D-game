@@ -381,9 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660635e8937911b40806bc071d166e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthSpawner
-  healthPrefab: {fileID: 4912202968677518800, guid: 93e6ba6d14a06cc439d4b904abaa326b, type: 3}
+  healthPrefab: {fileID: 3408836902990705850, guid: eda212263c92be04ca01b9b92e90cfa8, type: 3}
   maxHealthPickups: 3
-  spawnRadius: 50
+  spawnRadius: 60
   checkDelay: 5
   minDistanceFromPlayer: 5
   spawnHeight: 1

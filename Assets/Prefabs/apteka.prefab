@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2562538068360677867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 83.46004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.88898
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      propertyPath: m_Name
+      value: apteka
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6844572753398979091}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8990244427276393197}
+  m_SourcePrefab: {fileID: 100100000, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+--- !u!1 &3408836902990705850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 03e4f7e07324b8c419fc2f94767656ab, type: 3}
+  m_PrefabInstance: {fileID: 2562538068360677867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6844572753398979091
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408836902990705850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.05858149, y: 0.060978472, z: 0.026209954}
+  m_Center: {x: -0.016790744, y: 0.00024941008, z: 0.00025631022}
+--- !u!114 &8990244427276393197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408836902990705850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37cf700f3881884e9a43d8dde7884c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthPickup
+  healAmount: 50
+  rotationSpeed: 90
+  bobSpeed: 2
+  bobHeight: 0.3
+  pickupSound: {fileID: 0}
