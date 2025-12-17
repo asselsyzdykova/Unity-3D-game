@@ -36,6 +36,12 @@ public class ZombieHealth : MonoBehaviour
         }
         Debug.Log(gameObject.name + " bol zničený!");
 
+        PlayerMovement player = FindObjectOfType<PlayerMovement>();
+        if (player != null)
+        {
+            player.RegisterZombieKill();
+        }
+
         if (anim != null)
         {
             anim.SetTrigger("Die"); 

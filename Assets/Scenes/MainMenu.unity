@@ -417,7 +417,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &1692636965 stripped
+--- !u!114 &1409685234828076526 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4162018413457766509, guid: 229f4b80e45c9e94784ceca49c3a54bb, type: 3}
+  m_PrefabInstance: {fileID: 3049571308120743299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &2944899780879828660 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7246403656016889769, guid: b9d78ab5a998ff844afa68a813a83fe1, type: 3}
   m_PrefabInstance: {fileID: 5498339909323014429}
@@ -519,11 +530,15 @@ PrefabInstance:
     - target: {fileID: 2715464459325721399, guid: 229f4b80e45c9e94784ceca49c3a54bb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1692636965}
+      objectReference: {fileID: 2944899780879828660}
     - target: {fileID: 3515449582890066219, guid: 229f4b80e45c9e94784ceca49c3a54bb, type: 3}
       propertyPath: m_Name
       value: CanvasMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 4538895100894053100, guid: 229f4b80e45c9e94784ceca49c3a54bb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2944899780879828660}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -581,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuController
       objectReference: {fileID: 0}
+    - target: {fileID: 7246403656016889769, guid: b9d78ab5a998ff844afa68a813a83fe1, type: 3}
+      propertyPath: recordText
+      value: 
+      objectReference: {fileID: 1409685234828076526}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

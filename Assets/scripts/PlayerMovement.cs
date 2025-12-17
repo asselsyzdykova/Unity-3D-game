@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.IO;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Animator))]
@@ -21,10 +22,36 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
 
+    [Header("Logging Settings")]
+    private string logPath;
+    private float logTimer = 0f;
+    private int score = 0;
+    private int zombieKills = 0;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+
+        logPath = Path.Combine(Application.dataPath + "/../", "Game_History_Log.txt");
+
+        Debug.Log("Log file: " + logPath);
+        LogEvent("--- NEW GAME SESSION STARTED ---");
+        LogEvent("Player's record at start: " + PlayerPrefs.GetInt("HighScore", 0));
+    }
+
+    public void RegisterZombieKill()
+    {
+        zombieKills++;
+        LogEvent($"Zombie killed! Total for the session: {zombieKills}");
+
+        int savedRecord = PlayerPrefs.GetInt("ZombieRecord", 0);
+        if (zombieKills > savedRecord)
+        {
+            PlayerPrefs.SetInt("ZombieRecord", zombieKills);
+            PlayerPrefs.Save();
+            LogEvent($"!!! NEW KILL RECORD: {zombieKills} !!!");
+        }
     }
 
     void Update()
@@ -35,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("Jump");
+            LogEvent("Player jumped");
         }
 
         float h = Input.GetAxis("Horizontal");
@@ -58,6 +86,19 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetFloat("Speed", moveDir.magnitude);
+        logTimer += Time.deltaTime;
+        if (logTimer >= 5f)
+        {
+            LogEvent($"Position: {transform.position} | Turn: {transform.eulerAngles.y}");
+            logTimer = 0;
+        }
+    }
+
+    public void LogEvent(string message)
+    {
+        string timestamp = System.DateTime.Now.ToString("HH:mm:ss");
+        string entry = $"[{timestamp}] {message}\r\n";
+        File.AppendAllText(logPath, entry);
     }
 
     void OnDrawGizmosSelected()
