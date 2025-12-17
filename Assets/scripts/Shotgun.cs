@@ -76,7 +76,7 @@ public class Shotgun : MonoBehaviour
     {
         if (ammoText != null)
         {
-            ammoText.text = currentAmmo + " [" + totalAmmo + "]";
+            ammoText.text ="Ammo: " + currentAmmo + " [" + totalAmmo + "]";
         }
     }
 

@@ -46,3 +46,25 @@
 [06:34:28] Zombie killed! Total for the session: 7
 [06:34:28] !!! NEW KILL RECORD: 7 !!!
 [06:34:29] Position: (87.49, 0.00, 68.33) | Turn: 206,9362
+[16:27:32] --- NEW GAME SESSION STARTED ---
+[16:27:32] Player's record at start: 0
+[16:27:38] Position: (74.27, 0.00, 45.15) | Turn: 318,9114
+[16:32:22] --- NEW GAME SESSION STARTED ---
+[16:32:22] Player's record at start: 0
+[16:34:53] --- NEW GAME SESSION STARTED ---
+[16:34:53] Player's record at start: 0
+[16:34:59] Position: (65.92, 0.00, 52.34) | Turn: 286,3784
+[16:35:04] Position: (65.97, 0.00, 54.76) | Turn: 253,949
+[16:35:09] Position: (54.93, 0.00, 54.79) | Turn: 202,3462
+[16:35:11] Zombie killed! Total for the session: 1
+[16:35:14] Position: (54.93, 0.00, 54.79) | Turn: 121,2172
+[16:35:19] Position: (62.98, 0.00, 54.57) | Turn: 187,7452
+[16:35:24] Position: (67.95, 0.00, 52.19) | Turn: 243,4634
+[16:35:29] Position: (69.77, 0.00, 48.62) | Turn: 5,582257
+[16:35:29] Zombie killed! Total for the session: 2
+[16:35:31] Zombie killed! Total for the session: 3
+[16:35:34] Position: (70.76, 0.00, 45.79) | Turn: 29,43919
+[16:47:06] --- NEW GAME SESSION STARTED ---
+[16:47:06] Player's record at start: 0
+[16:47:29] --- NEW GAME SESSION STARTED ---
+[16:47:29] Player's record at start: 0
