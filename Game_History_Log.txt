@@ -697,3 +697,5 @@
 [01:17:06] Position: (52.98, 0.00, 52.83) | Turn: 217,1105
 [01:17:06] PICKUP: Health Pack (+200 HP). Current Health: 500/500
 [01:17:09] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 45
+[01:32:32] --- NEW GAME SESSION STARTED ---
+[01:32:32] Player's record at start: 0
