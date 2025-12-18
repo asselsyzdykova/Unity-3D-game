@@ -34,6 +34,17 @@ public class Crosshair : MonoBehaviour
     {
         if (crosshairImage == null || rectTransform == null) return;
 
+        // Скрываем прицел в меню/паузе
+        if (GameUIManager.isPaused)
+        {
+            crosshairImage.enabled = false;
+            return;
+        }
+        else
+        {
+            crosshairImage.enabled = true;
+        }
+
         // Плавное изменение размера
         currentSize = Mathf.Lerp(currentSize, normalSize, smoothSpeed * Time.deltaTime);
         rectTransform.sizeDelta = new Vector2(currentSize, currentSize);

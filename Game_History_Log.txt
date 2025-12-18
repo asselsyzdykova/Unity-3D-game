@@ -699,3 +699,76 @@
 [01:17:09] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 45
 [01:32:32] --- NEW GAME SESSION STARTED ---
 [01:32:32] Player's record at start: 0
+[01:42:42] --- NEW GAME SESSION STARTED ---
+[01:42:42] Player's record at start: 0
+[01:42:48] Position: (69.15, 0.00, 51.96) | Turn: 317,4143
+[01:42:53] Position: (69.15, 0.00, 51.96) | Turn: 30,93965
+[01:44:29] --- NEW GAME SESSION STARTED ---
+[01:44:29] Player's record at start: 0
+[01:44:34] Position: (69.15, 0.00, 51.96) | Turn: 86,19385
+[01:44:39] Position: (69.15, 0.00, 51.96) | Turn: 13,75313
+[01:44:44] Position: (59.58, 0.00, 58.67) | Turn: 355,7337
+[01:44:45] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:44:47] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 40
+[01:44:49] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 55
+[01:44:49] Position: (53.58, 0.00, 51.58) | Turn: 98,41374
+[01:44:53] Zombie killed! Total for the session: 1
+[01:44:54] Position: (54.98, 0.00, 54.32) | Turn: 100,3279
+[01:45:12] --- NEW GAME SESSION STARTED ---
+[01:45:12] Player's record at start: 0
+[01:45:18] Position: (69.15, 0.00, 51.96) | Turn: 359,723
+[01:52:10] --- NEW GAME SESSION STARTED ---
+[01:52:10] Player's record at start: 0
+[01:52:16] Position: (69.15, 0.00, 51.96) | Turn: 3,173753
+[01:52:21] Position: (69.15, 0.00, 51.96) | Turn: 8,825418
+[01:52:44] --- NEW GAME SESSION STARTED ---
+[01:52:44] Player's record at start: 0
+[01:52:49] Position: (69.15, 0.00, 51.96) | Turn: 42,73612
+[01:52:54] Position: (66.92, 0.00, 54.92) | Turn: 17,85223
+[01:52:59] Position: (61.89, 0.00, 56.27) | Turn: 327,7738
+[01:53:04] Position: (57.26, 0.00, 60.30) | Turn: 323,9314
+[01:53:28] --- NEW GAME SESSION STARTED ---
+[01:53:28] Player's record at start: 0
+[01:53:34] Position: (69.15, 0.00, 51.96) | Turn: 19,74132
+[01:54:06] --- NEW GAME SESSION STARTED ---
+[01:54:06] Player's record at start: 0
+[01:54:11] Position: (67.85, 0.00, 58.67) | Turn: 41,26419
+[01:54:16] Position: (69.00, 0.00, 57.62) | Turn: 293,1863
+[01:54:24] --- NEW GAME SESSION STARTED ---
+[01:54:24] Player's record at start: 0
+[01:54:29] Position: (69.15, 0.00, 51.96) | Turn: 344,7414
+[01:55:36] --- NEW GAME SESSION STARTED ---
+[01:55:36] Player's record at start: 0
+[01:55:41] Position: (69.15, 0.00, 51.96) | Turn: 9,156397
+[01:57:13] --- NEW GAME SESSION STARTED ---
+[01:57:13] Player's record at start: 0
+[01:57:19] Position: (69.15, 0.00, 51.96) | Turn: 57,76777
+[01:57:24] Position: (65.85, 0.00, 56.55) | Turn: 21,31501
+[01:57:29] Position: (65.99, 0.00, 56.48) | Turn: 352,5959
+[01:57:32] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 35
+[01:57:34] Position: (59.04, 0.00, 42.06) | Turn: 79,87399
+[01:57:39] Position: (58.65, 0.00, 42.17) | Turn: 78,37717
+[01:58:26] --- NEW GAME SESSION STARTED ---
+[01:58:26] Player's record at start: 0
+[01:58:32] Position: (69.15, 0.00, 51.96) | Turn: 16,9739
+[01:59:04] --- NEW GAME SESSION STARTED ---
+[01:59:04] Player's record at start: 0
+[01:59:46] --- NEW GAME SESSION STARTED ---
+[01:59:46] Player's record at start: 0
+[01:59:52] Position: (69.15, 0.00, 51.96) | Turn: 79,41969
+[01:59:55] Zombie killed! Total for the session: 1
+[01:59:57] Position: (68.54, 0.00, 50.45) | Turn: 62,18941
+[02:00:02] Position: (64.13, 0.00, 58.82) | Turn: 312,1342
+[02:00:07] Position: (70.45, 0.00, 51.02) | Turn: 336,777
+[02:00:12] Position: (68.99, 0.00, 43.08) | Turn: 357,9326
+[02:00:17] Position: (62.33, 0.00, 45.50) | Turn: 348,3246
+[02:04:57] --- NEW GAME SESSION STARTED ---
+[02:04:57] Player's record at start: 0
+[02:05:03] Position: (67.43, 0.00, 54.53) | Turn: 124,8671
+[02:05:08] Position: (69.02, 0.00, 51.00) | Turn: 38,96297
+[02:05:08] Zombie killed! Total for the session: 1
+[02:05:53] --- NEW GAME SESSION STARTED ---
+[02:05:53] Player's record at start: 0
+[02:05:58] Position: (74.23, 0.00, 50.45) | Turn: 37,9227
+[02:06:00] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[02:06:03] Position: (72.24, 0.00, 57.09) | Turn: 191,6664
