@@ -34,6 +34,14 @@ public class Shotgun : MonoBehaviour
     public float reloadDuration = 2.0f; 
     public GameObject impactEffectPrefab;
     public GameObject muzzleFlashPrefab;
+    public Crosshair crosshair;
+    public MuzzleFlashEffect muzzleFlashEffect;
+
+    [Header("Recoil Settings")]
+    public float recoilAmount = 0.1f;
+    public float recoilSpeed = 10f;
+    private Vector3 originalGunPosition;
+    private bool hasOriginalPosition = false;
 
     private float nextTimeToFire = 0f; 
     private bool isReloading = false;
@@ -46,11 +54,20 @@ public class Shotgun : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
         UpdateAmmoUI();
+        
+        originalGunPosition = transform.localPosition;
+        hasOriginalPosition = true;
     }
 
     void Update()
     {
         if (isReloading) return;
+
+        // Плавный возврат оружия после отдачи
+        if (hasOriginalPosition)
+        {
+            transform.localPosition = Vector3.Lerp(transform.localPosition, originalGunPosition, recoilSpeed * Time.deltaTime);
+        }
 
         if (GameUIManager.isPaused) return;
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
@@ -127,7 +144,24 @@ public class Shotgun : MonoBehaviour
         currentAmmo--;
         UpdateAmmoUI();
 
-        if (muzzleFlashPrefab != null)
+        // Отдача оружия назад (по локальной оси X)
+        if (hasOriginalPosition)
+        {
+            transform.localPosition = originalGunPosition + new Vector3(-recoilAmount, 0, 0);
+        }
+
+        // Эффект отдачи прицела
+        if (crosshair != null)
+        {
+            crosshair.OnShoot();
+        }
+
+        // Эффект вспышки выстрела
+        if (muzzleFlashEffect != null)
+        {
+            muzzleFlashEffect.PlayFlash();
+        }
+        else if (muzzleFlashPrefab != null)
         {
             GameObject flash = Instantiate(muzzleFlashPrefab, firePoint.position, firePoint.rotation);
             flash.transform.parent = firePoint; 
@@ -164,6 +198,12 @@ public class Shotgun : MonoBehaviour
                 if (zombie != null)
                 {
                     zombie.TakeDamage(damage);
+                    
+                    // Создаём маркер попадания на зомби
+                    GameObject hitMarker = new GameObject("HitMarker");
+                    hitMarker.transform.position = hit.point + hit.normal * 0.01f;
+                    hitMarker.transform.SetParent(hit.transform); // Прикрепляем к зомби
+                    hitMarker.AddComponent<HitMarker>();
                 }
 
                 Debug.Log("Trafil do: " + hit.transform.name);

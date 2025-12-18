@@ -1,2 +1,21 @@
 fileFormatVersion: 2
 guid: 95076ced2f6a2774aa70b871eb20e93d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootSound: {instanceID: 0}
+  - reloadSound: {instanceID: 0}
+  - emptySound: {instanceID: 0}
+  - ammoText: {instanceID: 0}
+  - firePoint: {instanceID: 0}
+  - playerAnim: {instanceID: 0}
+  - impactEffectPrefab: {instanceID: 0}
+  - muzzleFlashPrefab: {fileID: 4618684673146247519, guid: dff60ff691f6c114f82fc02c2c93dc8e, type: 3}
+  - crosshair: {instanceID: 0}
+  - muzzleFlashEffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
