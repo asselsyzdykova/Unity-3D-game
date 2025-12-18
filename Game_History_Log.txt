@@ -650,3 +650,172 @@
 [23:07:09] Zombie killed! Total for the session: 9
 [23:07:09] !!! NEW KILL RECORD: 9 !!!
 [23:07:11] Position: (117.29, 0.00, 37.70) | Turn: 86,15317
+[01:17:45] --- NEW GAME SESSION STARTED ---
+[01:17:45] Player's record at start: 0
+[01:17:51] Position: (66.48, 0.00, 57.20) | Turn: 58,518
+[01:17:56] Position: (65.83, 0.00, 54.92) | Turn: 106,6458
+[01:17:58] Zombie killed! Total for the session: 1
+[01:18:00] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:18:01] Position: (66.99, 0.00, 58.40) | Turn: 167,0134
+[01:18:05] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 35
+[01:18:06] Position: (53.94, 0.00, 51.45) | Turn: 50,75374
+[01:18:11] Position: (54.89, 0.00, 53.60) | Turn: 128,397
+[01:18:13] Zombie killed! Total for the session: 2
+[01:18:16] Position: (62.20, 0.00, 50.32) | Turn: 102,2477
+[01:18:20] Zombie killed! Total for the session: 3
+[01:18:21] Position: (60.76, 0.00, 47.28) | Turn: 59,11517
+[01:18:26] Position: (62.64, 0.00, 51.11) | Turn: 81,82114
+[01:18:28] Player jumped
+[01:18:31] Position: (62.76, 0.00, 57.28) | Turn: 316,116
+[01:18:32] Player jumped
+[01:18:36] Position: (73.95, 0.00, 63.36) | Turn: 128,7811
+[01:18:41] Position: (83.68, 0.08, 69.79) | Turn: 159,886
+[01:18:46] Player jumped
+[01:18:46] Position: (99.01, 1.22, 77.57) | Turn: 41,67554
+[01:18:47] Player jumped
+[01:18:49] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:18:51] Position: (106.25, 0.00, 90.46) | Turn: 33,96267
+[01:18:52] Player jumped
+[01:18:54] Player jumped
+[01:18:54] Player jumped
+[01:18:55] Player jumped
+[01:18:56] Player jumped
+[01:18:56] Player jumped
+[01:18:56] Position: (93.23, 3.48, 107.91) | Turn: 52,72389
+[01:18:57] Player jumped
+[01:18:59] Player jumped
+[01:19:01] Position: (93.85, 2.00, 123.60) | Turn: 340,5885
+[01:19:02] Zombie killed! Total for the session: 4
+[01:19:04] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 46
+[01:19:06] Position: (87.04, 1.85, 118.37) | Turn: 124,7348
+[01:19:11] Position: (106.91, 2.19, 125.72) | Turn: 111,3549
+[01:19:16] Position: (112.38, 1.03, 135.40) | Turn: 352,0372
+[01:19:20] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 64
+[01:19:21] Position: (113.28, 0.23, 149.89) | Turn: 52,39229
+[01:19:22] Zombie killed! Total for the session: 5
+[01:19:26] Position: (113.28, 0.23, 149.89) | Turn: 209,3681
+[01:19:34] Position: (113.28, 0.23, 149.89) | Turn: 243,4283
+[01:19:39] Position: (113.27, 0.23, 149.89) | Turn: 232,7088
+[01:19:48] Position: (113.27, 0.23, 149.89) | Turn: 223,9417
+[01:19:56] Position: (122.22, 1.79, 144.84) | Turn: 205,2181
+[01:19:57] Player jumped
+[01:20:00] Player jumped
+[01:20:01] Position: (108.50, 1.81, 129.76) | Turn: 289,1246
+[01:20:09] Position: (106.33, 2.18, 126.38) | Turn: 236,3325
+[01:20:17] Position: (106.33, 2.18, 126.38) | Turn: 223,6211
+[01:20:42] --- NEW GAME SESSION STARTED ---
+[01:20:42] Player's record at start: 0
+[01:20:48] Position: (67.71, 0.00, 54.68) | Turn: 25,20187
+[01:20:56] Position: (61.16, 0.00, 58.85) | Turn: 322,9563
+[01:20:56] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:20:57] Player jumped
+[01:21:00] Player jumped
+[01:21:01] Position: (42.92, 0.00, 64.16) | Turn: 16,78156
+[01:21:08] Position: (43.61, 0.00, 64.49) | Turn: 13,51833
+[01:44:21] --- NEW GAME SESSION STARTED ---
+[01:44:21] Player's record at start: 0
+[01:44:29] Position: (60.65, 0.00, 55.61) | Turn: 139,7473
+[01:44:34] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:44:34] Position: (66.08, 0.00, 57.91) | Turn: 142,3989
+[01:44:39] Position: (77.23, 0.00, 70.58) | Turn: 198,5691
+[01:44:44] Position: (98.29, 0.00, 66.18) | Turn: 173,9234
+[01:44:46] Zombie killed! Total for the session: 1
+[01:44:49] Position: (103.42, 0.00, 71.81) | Turn: 109,5881
+[01:44:50] Zombie killed! Total for the session: 2
+[01:44:54] Position: (111.88, 0.57, 77.12) | Turn: 60,83421
+[01:44:57] Zombie killed! Total for the session: 3
+[01:44:59] Position: (110.00, 0.00, 87.83) | Turn: 48,2302
+[01:45:04] Position: (109.98, 0.00, 108.70) | Turn: 61,70334
+[01:45:09] Position: (122.30, 0.00, 106.84) | Turn: 90,63374
+[01:45:14] Position: (125.60, 0.00, 125.06) | Turn: 27,05911
+[01:45:15] Player jumped
+[01:45:19] Position: (129.30, 0.05, 135.83) | Turn: 190,9277
+[01:45:21] Player jumped
+[01:45:24] Position: (139.22, 0.00, 131.58) | Turn: 205,3376
+[01:45:26] Zombie killed! Total for the session: 4
+[01:45:29] Position: (139.58, 0.00, 131.64) | Turn: 187,0907
+[01:45:32] Zombie killed! Total for the session: 5
+[01:45:34] Position: (139.86, 0.00, 129.14) | Turn: 98,6664
+[01:45:39] Player jumped
+[01:45:39] Position: (136.40, 0.59, 131.01) | Turn: 276,6556
+[01:45:41] Player jumped
+[01:45:41] Player jumped
+[01:45:44] Position: (128.88, 0.23, 138.17) | Turn: 72,06623
+[01:45:44] Player jumped
+[01:45:45] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 27
+[01:45:46] Player jumped
+[01:45:48] Player jumped
+[01:45:49] Position: (141.65, 0.00, 129.09) | Turn: 188,3969
+[01:45:54] Position: (159.37, 0.00, 119.34) | Turn: 182,8915
+[01:45:59] Position: (170.29, 0.00, 111.96) | Turn: 240,6602
+[01:46:01] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:46:04] Position: (180.57, 0.00, 108.04) | Turn: 150,3305
+[01:46:09] Position: (184.88, 0.00, 95.77) | Turn: 263,5327
+[01:46:32] Position: (179.84, 0.00, 95.64) | Turn: 16,95217
+[01:46:33] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 46
+[01:46:35] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 66
+[01:46:36] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 86
+[01:46:37] Position: (166.26, 0.00, 110.41) | Turn: 1,988052
+[01:46:42] Position: (157.53, 0.00, 121.65) | Turn: 19,23833
+[01:46:47] Position: (152.44, 0.32, 138.96) | Turn: 107,5685
+[01:47:40] --- NEW GAME SESSION STARTED ---
+[01:47:40] Player's record at start: 0
+[01:47:47] --- NEW GAME SESSION STARTED ---
+[01:47:47] Player's record at start: 0
+[01:47:52] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 40
+[01:47:54] Position: (65.21, 0.00, 60.38) | Turn: 229,67
+[01:47:55] Zombie killed! Total for the session: 1
+[01:47:57] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 60
+[01:47:57] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 80
+[01:47:59] Position: (61.03, 0.00, 56.30) | Turn: 20,64417
+[01:48:04] Position: (62.22, 0.00, 58.77) | Turn: 358,3979
+[01:48:04] Zombie killed! Total for the session: 2
+[01:48:07] Zombie killed! Total for the session: 3
+[01:48:09] Position: (63.98, 0.00, 56.48) | Turn: 322,8809
+[01:48:11] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:48:13] Player jumped
+[01:48:14] Position: (66.69, 0.84, 59.03) | Turn: 84,97977
+[01:48:15] Player jumped
+[01:48:42] Position: (83.96, 0.00, 68.16) | Turn: 136,46
+[01:48:47] Position: (74.36, 0.00, 68.41) | Turn: 320,234
+[01:48:51] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 90
+[01:48:52] Position: (56.10, 0.00, 64.66) | Turn: 172,4155
+[01:48:57] Position: (56.43, 0.00, 64.70) | Turn: 126,7263
+[01:48:57] Zombie killed! Total for the session: 4
+[01:49:01] Player jumped
+[01:49:02] Position: (40.08, 0.36, 63.53) | Turn: 282,9708
+[01:49:07] Position: (35.71, 0.00, 44.41) | Turn: 214,2618
+[01:49:12] Position: (55.78, 0.00, 35.90) | Turn: 132,7789
+[01:49:14] Player jumped
+[01:49:17] Position: (66.29, 0.00, 48.73) | Turn: 76,95998
+[01:49:22] Position: (75.17, 0.00, 71.08) | Turn: 88,46725
+[01:49:45] Position: (78.56, 0.00, 85.28) | Turn: 52,31158
+[01:49:59] Position: (78.56, 0.00, 85.28) | Turn: 228,2649
+[01:50:01] PICKUP: Health Pack (+200 HP). Current Health: 500/500
+[01:50:02] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 106
+[01:50:03] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 126
+[01:50:04] Position: (87.12, 0.00, 76.15) | Turn: 150,9203
+[01:50:05] Player jumped
+[01:50:09] Position: (84.76, 0.00, 77.78) | Turn: 337,7267
+[01:50:10] PICKUP: Ammo Pack (+20 bullets). Total Ammo: 146
+[01:50:12] Player jumped
+[01:50:14] Position: (78.23, 0.00, 81.25) | Turn: 226,0784
+[01:50:15] Zombie killed! Total for the session: 5
+[01:50:17] Player jumped
+[01:50:19] Position: (85.81, 0.00, 81.00) | Turn: 333,3682
+[01:50:20] Player jumped
+[01:50:21] Player jumped
+[01:50:22] Player jumped
+[01:50:23] Player jumped
+[01:50:24] Position: (88.34, 0.52, 104.28) | Turn: 79,81348
+[01:50:24] Player jumped
+[01:50:26] Player jumped
+[01:50:27] Player jumped
+[01:50:28] Player jumped
+[01:50:29] Player jumped
+[01:50:29] Position: (93.59, 0.10, 127.99) | Turn: 73,89271
+[01:50:30] Player jumped
+[01:50:34] Position: (95.80, 2.30, 146.59) | Turn: 98,62565
+[01:50:38] Player jumped
+[01:50:39] Position: (95.76, 3.31, 145.38) | Turn: 250,627
+[01:50:44] Position: (87.68, 0.25, 139.30) | Turn: 149,2586
