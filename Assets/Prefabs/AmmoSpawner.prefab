@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AmmoSpawner
   ammoPrefab: {fileID: 8640882378803037760, guid: 5c8a8b8a97474c440ac90fecf87c7415, type: 3}
   maxAmmoPacks: 3
-  spawnRadius: 24
-  checkDelay: 7
-  minDistanceFromPlayer: 10
+  spawnRadius: 15
+  checkDelay: 4
+  minDistanceFromPlayer: 5
