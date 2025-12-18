@@ -34,6 +34,8 @@ public class Shotgun : MonoBehaviour
     public float reloadDuration = 2.0f; 
     public GameObject impactEffectPrefab;
     public GameObject muzzleFlashPrefab;
+    public Crosshair crosshair;
+    public MuzzleFlashEffect muzzleFlashEffect;
 
     private float nextTimeToFire = 0f; 
     private bool isReloading = false;
@@ -127,7 +129,18 @@ public class Shotgun : MonoBehaviour
         currentAmmo--;
         UpdateAmmoUI();
 
-        if (muzzleFlashPrefab != null)
+        // Эффект отдачи прицела
+        if (crosshair != null)
+        {
+            crosshair.OnShoot();
+        }
+
+        // Эффект вспышки выстрела
+        if (muzzleFlashEffect != null)
+        {
+            muzzleFlashEffect.PlayFlash();
+        }
+        else if (muzzleFlashPrefab != null)
         {
             GameObject flash = Instantiate(muzzleFlashPrefab, firePoint.position, firePoint.rotation);
             flash.transform.parent = firePoint; 
